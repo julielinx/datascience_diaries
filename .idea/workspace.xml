@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb183829-ed03-4512-a64b-4c35b5d45783" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/25_thresholds-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/25a_nb_thresholds-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/25b_nb_thresholds-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/25c_nb_thresholds-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/25d_nb_thresholds-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/25e_nb_thresholds-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/25z_nb_openml-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/60_baseline_compare-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/24_nb_class_score_implement.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/02_model_eval/24_nb_class_score_implement.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/25_thresholds.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/25a_nb_thresholds.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/25b_nb_thresholds.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/25c_nb_thresholds.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/25d_nb_thresholds.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/25e_nb_thresholds.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/25z_nb_openml.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/60_baseline_compare.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/60_nb_baseline_compare.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/Untitled.ipynb" beforeDir="false" />
-    </list>
+    <list default="true" id="cb183829-ed03-4512-a64b-4c35b5d45783" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
