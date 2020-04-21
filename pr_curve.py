@@ -1,3 +1,6 @@
+from binary_classifications import _binary_clf_curve
+
+
 def precision_recall_curve(y_true, probas_pred, pos_label=None,
                            sample_weight=None):
     """Compute precision-recall pairs for different probability thresholds
