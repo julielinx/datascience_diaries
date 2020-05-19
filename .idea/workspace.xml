@@ -3,12 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="cb183829-ed03-4512-a64b-4c35b5d45783" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/28a_nb_thresholds_profit_cost-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/28a_nb_thresholds_profit_cost-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/29_gain_lift-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/29_gain_lift-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/26e_nb_thresholds_pr_roc-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/26e_nb_thresholds_pr_roc-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/28_thresholds_profit_cost-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/02_model_eval/.ipynb_checkpoints/28_thresholds_profit_cost-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_model_eval/23_class_score_theory.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/02_model_eval/23_class_score_theory.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_model_eval/26e_nb_thresholds_pr_roc.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/02_model_eval/26e_nb_thresholds_pr_roc.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02_model_eval/28_thresholds_profit_cost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/02_model_eval/28_thresholds_profit_cost.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/28a_nb_thresholds_profit_cost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/02_model_eval/28a_nb_thresholds_profit_cost.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_model_eval/29_gain_lift.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/02_model_eval/29_gain_lift.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pr_curve.py" beforeDir="false" afterPath="$PROJECT_DIR$/pr_curve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_visualization/.ipynb_checkpoints/01_plotly_rendering-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_visualization/.ipynb_checkpoints/02_plotly_figure_basics-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_visualization/.ipynb_checkpoints/03_plotly_subplots_chaining_underscorenote-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_visualization/.ipynb_checkpoints/04_plotly_add_or_update-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_visualization/.ipynb_checkpoints/30_plotly_express-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_visualization/.ipynb_checkpoints/40_plotly_figure_factory-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_visualization/01_plotly_rendering.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_visualization/02_plotly_figure_basics.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_visualization/03_plotly_subplots_chaining_underscorenote.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_visualization/04_plotly_add_or_update.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_visualization/30_plotly_express.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_visualization/40_plotly_figure_factory.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_references.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/common_references.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
