@@ -1,0 +1,545 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Entry 39 notebook - Lasso Regression"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np\n",
+    "import pandas as pd\n",
+    "import matplotlib.pyplot as plt\n",
+    "import seaborn as sns\n",
+    "\n",
+    "import openml\n",
+    "\n",
+    "from sklearn.model_selection import train_test_split, cross_validate\n",
+    "from sklearn.preprocessing import StandardScaler\n",
+    "from sklearn.impute import SimpleImputer\n",
+    "from sklearn.pipeline import make_pipeline\n",
+    "from sklearn.linear_model import Ridge"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Regression"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Displacement</th>\n",
+       "      <th>Horse_power</th>\n",
+       "      <th>Weight</th>\n",
+       "      <th>Acceleration</th>\n",
+       "      <th>Model_year</th>\n",
+       "      <th>Mpg</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>91.0</td>\n",
+       "      <td>70.0</td>\n",
+       "      <td>1955.0</td>\n",
+       "      <td>20.5</td>\n",
+       "      <td>71.0</td>\n",
+       "      <td>26.0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>232.0</td>\n",
+       "      <td>100.0</td>\n",
+       "      <td>2789.0</td>\n",
+       "      <td>15.0</td>\n",
+       "      <td>73.0</td>\n",
+       "      <td>18.0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>350.0</td>\n",
+       "      <td>145.0</td>\n",
+       "      <td>4055.0</td>\n",
+       "      <td>12.0</td>\n",
+       "      <td>76.0</td>\n",
+       "      <td>13.0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>318.0</td>\n",
+       "      <td>140.0</td>\n",
+       "      <td>4080.0</td>\n",
+       "      <td>13.7</td>\n",
+       "      <td>78.0</td>\n",
+       "      <td>17.5</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>113.0</td>\n",
+       "      <td>95.0</td>\n",
+       "      <td>2372.0</td>\n",
+       "      <td>15.0</td>\n",
+       "      <td>70.0</td>\n",
+       "      <td>24.0</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "   Displacement  Horse_power  Weight  Acceleration  Model_year   Mpg\n",
+       "0          91.0         70.0  1955.0          20.5        71.0  26.0\n",
+       "1         232.0        100.0  2789.0          15.0        73.0  18.0\n",
+       "2         350.0        145.0  4055.0          12.0        76.0  13.0\n",
+       "3         318.0        140.0  4080.0          13.7        78.0  17.5\n",
+       "4         113.0         95.0  2372.0          15.0        70.0  24.0"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "auto_mpg = openml.datasets.get_dataset(42372).get_data()[0]\n",
+    "auto_mpg.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def split_data(df, target, train_size):\n",
+    "    y = df[[target]]\n",
+    "    X = df.drop(target, axis=1)\n",
+    "    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=train_size, random_state=12)\n",
+    "    return X_train, X_test, y_train, y_test"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0.7952241582592139"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "X_train, X_test, y_train, y_test = split_data(auto_mpg, 'Mpg', 0.8)\n",
+    "pipe = make_pipeline(SimpleImputer(strategy='median'), StandardScaler(), Ridge())\n",
+    "pipe.fit(X_train, y_train)\n",
+    "pipe.score(X_test, y_test)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'fit_time': array([0.00999284, 0.01399016, 0.00699902, 0.00598955, 0.00699568,\n",
+       "        0.00599718, 0.00599527, 0.00599933, 0.00599837, 0.00699592]),\n",
+       " 'score_time': array([0.01489043, 0.01898837, 0.0159924 , 0.0089941 , 0.00899386,\n",
+       "        0.0099957 , 0.00899625, 0.00998998, 0.0139904 , 0.00899172]),\n",
+       " 'test_explained_variance': array([0.83128433, 0.60689203, 0.80370128, 0.69517281, 0.73150325,\n",
+       "        0.91739607, 0.78382119, 0.7096364 , 0.84486155, 0.82653895]),\n",
+       " 'test_r2': array([0.81045283, 0.60583915, 0.78618695, 0.51535798, 0.72851554,\n",
+       "        0.91596174, 0.77512014, 0.70636946, 0.8067257 , 0.73656715]),\n",
+       " 'test_max_error': array([ -4.85243676, -11.33429   , -11.10555761,  -8.39018571,\n",
+       "         -4.93522033,  -3.78434049,  -3.55791604, -11.30443158,\n",
+       "         -6.51524644,  -6.54671858]),\n",
+       " 'test_neg_median_absolute_error': array([-2.11760491, -2.51693084, -1.7716712 , -1.36396416, -3.34015662,\n",
+       "        -1.60576451, -1.70001065, -2.57416412, -1.34371706, -4.21178764]),\n",
+       " 'test_neg_mean_absolute_error': array([-2.57276596, -3.4916924 , -2.71212605, -2.33892662, -2.8757886 ,\n",
+       "        -1.84761062, -1.71110152, -4.01596881, -2.32681022, -3.60149818]),\n",
+       " 'test_neg_mean_squared_error': array([ -7.9687705 , -22.52235106, -18.75297489, -10.98774325,\n",
+       "        -10.92300765,  -4.78697663,  -4.13722725, -27.49808721,\n",
+       "        -10.08528976, -17.38409486]),\n",
+       " 'test_neg_mean_squared_log_error': array([-0.01197575, -0.02848243, -0.01733546, -0.02484002, -0.04057157,\n",
+       "        -0.00783491, -0.00603043, -0.03634767, -0.01696383, -0.04461639]),\n",
+       " 'test_neg_root_mean_squared_error': array([-2.82290108, -4.74577191, -4.33047052, -3.3147765 , -3.30499738,\n",
+       "        -2.18791605, -2.03401751, -5.24386186, -3.17573452, -4.1694238 ]),\n",
+       " 'test_neg_mean_poisson_deviance': array([-0.30934425, -0.83337426, -0.5907799 , -0.50876726, -0.68350836,\n",
+       "        -0.19350979, -0.15885998, -0.9838212 , -0.41057725, -0.88521075]),\n",
+       " 'test_neg_mean_gamma_deviance': array([-0.01267278, -0.03228338, -0.01980685, -0.02415807, -0.05276889,\n",
+       "        -0.00852342, -0.00640595, -0.03998086, -0.01788625, -0.05884574])}"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "cross_validate(pipe, X_train, y_train, cv=10, scoring=['explained_variance', 'r2', 'max_error',\n",
+    "                                                      'neg_median_absolute_error', 'neg_mean_absolute_error',\n",
+    "                                                      'neg_mean_squared_error', 'neg_mean_squared_log_error',\n",
+    "                                                      'neg_root_mean_squared_error', 'neg_mean_poisson_deviance',\n",
+    "                                                      'neg_mean_gamma_deviance'])"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Classification"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from sklearn.linear_model import RidgeClassifier\n",
+    "\n",
+    "from sklearn.datasets import load_breast_cancer"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>mean radius</th>\n",
+       "      <th>mean texture</th>\n",
+       "      <th>mean perimeter</th>\n",
+       "      <th>mean area</th>\n",
+       "      <th>mean smoothness</th>\n",
+       "      <th>mean compactness</th>\n",
+       "      <th>mean concavity</th>\n",
+       "      <th>mean concave points</th>\n",
+       "      <th>mean symmetry</th>\n",
+       "      <th>mean fractal dimension</th>\n",
+       "      <th>...</th>\n",
+       "      <th>worst radius</th>\n",
+       "      <th>worst texture</th>\n",
+       "      <th>worst perimeter</th>\n",
+       "      <th>worst area</th>\n",
+       "      <th>worst smoothness</th>\n",
+       "      <th>worst compactness</th>\n",
+       "      <th>worst concavity</th>\n",
+       "      <th>worst concave points</th>\n",
+       "      <th>worst symmetry</th>\n",
+       "      <th>worst fractal dimension</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>17.99</td>\n",
+       "      <td>10.38</td>\n",
+       "      <td>122.80</td>\n",
+       "      <td>1001.0</td>\n",
+       "      <td>0.11840</td>\n",
+       "      <td>0.27760</td>\n",
+       "      <td>0.3001</td>\n",
+       "      <td>0.14710</td>\n",
+       "      <td>0.2419</td>\n",
+       "      <td>0.07871</td>\n",
+       "      <td>...</td>\n",
+       "      <td>25.38</td>\n",
+       "      <td>17.33</td>\n",
+       "      <td>184.60</td>\n",
+       "      <td>2019.0</td>\n",
+       "      <td>0.1622</td>\n",
+       "      <td>0.6656</td>\n",
+       "      <td>0.7119</td>\n",
+       "      <td>0.2654</td>\n",
+       "      <td>0.4601</td>\n",
+       "      <td>0.11890</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>20.57</td>\n",
+       "      <td>17.77</td>\n",
+       "      <td>132.90</td>\n",
+       "      <td>1326.0</td>\n",
+       "      <td>0.08474</td>\n",
+       "      <td>0.07864</td>\n",
+       "      <td>0.0869</td>\n",
+       "      <td>0.07017</td>\n",
+       "      <td>0.1812</td>\n",
+       "      <td>0.05667</td>\n",
+       "      <td>...</td>\n",
+       "      <td>24.99</td>\n",
+       "      <td>23.41</td>\n",
+       "      <td>158.80</td>\n",
+       "      <td>1956.0</td>\n",
+       "      <td>0.1238</td>\n",
+       "      <td>0.1866</td>\n",
+       "      <td>0.2416</td>\n",
+       "      <td>0.1860</td>\n",
+       "      <td>0.2750</td>\n",
+       "      <td>0.08902</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>19.69</td>\n",
+       "      <td>21.25</td>\n",
+       "      <td>130.00</td>\n",
+       "      <td>1203.0</td>\n",
+       "      <td>0.10960</td>\n",
+       "      <td>0.15990</td>\n",
+       "      <td>0.1974</td>\n",
+       "      <td>0.12790</td>\n",
+       "      <td>0.2069</td>\n",
+       "      <td>0.05999</td>\n",
+       "      <td>...</td>\n",
+       "      <td>23.57</td>\n",
+       "      <td>25.53</td>\n",
+       "      <td>152.50</td>\n",
+       "      <td>1709.0</td>\n",
+       "      <td>0.1444</td>\n",
+       "      <td>0.4245</td>\n",
+       "      <td>0.4504</td>\n",
+       "      <td>0.2430</td>\n",
+       "      <td>0.3613</td>\n",
+       "      <td>0.08758</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>11.42</td>\n",
+       "      <td>20.38</td>\n",
+       "      <td>77.58</td>\n",
+       "      <td>386.1</td>\n",
+       "      <td>0.14250</td>\n",
+       "      <td>0.28390</td>\n",
+       "      <td>0.2414</td>\n",
+       "      <td>0.10520</td>\n",
+       "      <td>0.2597</td>\n",
+       "      <td>0.09744</td>\n",
+       "      <td>...</td>\n",
+       "      <td>14.91</td>\n",
+       "      <td>26.50</td>\n",
+       "      <td>98.87</td>\n",
+       "      <td>567.7</td>\n",
+       "      <td>0.2098</td>\n",
+       "      <td>0.8663</td>\n",
+       "      <td>0.6869</td>\n",
+       "      <td>0.2575</td>\n",
+       "      <td>0.6638</td>\n",
+       "      <td>0.17300</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>20.29</td>\n",
+       "      <td>14.34</td>\n",
+       "      <td>135.10</td>\n",
+       "      <td>1297.0</td>\n",
+       "      <td>0.10030</td>\n",
+       "      <td>0.13280</td>\n",
+       "      <td>0.1980</td>\n",
+       "      <td>0.10430</td>\n",
+       "      <td>0.1809</td>\n",
+       "      <td>0.05883</td>\n",
+       "      <td>...</td>\n",
+       "      <td>22.54</td>\n",
+       "      <td>16.67</td>\n",
+       "      <td>152.20</td>\n",
+       "      <td>1575.0</td>\n",
+       "      <td>0.1374</td>\n",
+       "      <td>0.2050</td>\n",
+       "      <td>0.4000</td>\n",
+       "      <td>0.1625</td>\n",
+       "      <td>0.2364</td>\n",
+       "      <td>0.07678</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "<p>5 rows × 30 columns</p>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "   mean radius  mean texture  mean perimeter  mean area  mean smoothness  \\\n",
+       "0        17.99         10.38          122.80     1001.0          0.11840   \n",
+       "1        20.57         17.77          132.90     1326.0          0.08474   \n",
+       "2        19.69         21.25          130.00     1203.0          0.10960   \n",
+       "3        11.42         20.38           77.58      386.1          0.14250   \n",
+       "4        20.29         14.34          135.10     1297.0          0.10030   \n",
+       "\n",
+       "   mean compactness  mean concavity  mean concave points  mean symmetry  \\\n",
+       "0           0.27760          0.3001              0.14710         0.2419   \n",
+       "1           0.07864          0.0869              0.07017         0.1812   \n",
+       "2           0.15990          0.1974              0.12790         0.2069   \n",
+       "3           0.28390          0.2414              0.10520         0.2597   \n",
+       "4           0.13280          0.1980              0.10430         0.1809   \n",
+       "\n",
+       "   mean fractal dimension  ...  worst radius  worst texture  worst perimeter  \\\n",
+       "0                 0.07871  ...         25.38          17.33           184.60   \n",
+       "1                 0.05667  ...         24.99          23.41           158.80   \n",
+       "2                 0.05999  ...         23.57          25.53           152.50   \n",
+       "3                 0.09744  ...         14.91          26.50            98.87   \n",
+       "4                 0.05883  ...         22.54          16.67           152.20   \n",
+       "\n",
+       "   worst area  worst smoothness  worst compactness  worst concavity  \\\n",
+       "0      2019.0            0.1622             0.6656           0.7119   \n",
+       "1      1956.0            0.1238             0.1866           0.2416   \n",
+       "2      1709.0            0.1444             0.4245           0.4504   \n",
+       "3       567.7            0.2098             0.8663           0.6869   \n",
+       "4      1575.0            0.1374             0.2050           0.4000   \n",
+       "\n",
+       "   worst concave points  worst symmetry  worst fractal dimension  \n",
+       "0                0.2654          0.4601                  0.11890  \n",
+       "1                0.1860          0.2750                  0.08902  \n",
+       "2                0.2430          0.3613                  0.08758  \n",
+       "3                0.2575          0.6638                  0.17300  \n",
+       "4                0.1625          0.2364                  0.07678  \n",
+       "\n",
+       "[5 rows x 30 columns]"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "cancer = load_breast_cancer()\n",
+    "df = pd.DataFrame(cancer.data, columns=cancer.feature_names)\n",
+    "target = cancer.target\n",
+    "df.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0.956140350877193"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "X_train, X_test, y_train, y_test = train_test_split(df, target, train_size=0.8, random_state=12)\n",
+    "pipe = make_pipeline(SimpleImputer(strategy='median'), StandardScaler(), RidgeClassifier())\n",
+    "pipe.fit(X_train, y_train)\n",
+    "pipe.score(X_test, y_test)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'fit_time': array([0.03002548, 0.01498866, 0.00799489, 0.00699544, 0.00899506,\n",
+       "        0.00999808, 0.00699878, 0.01351786, 0.00899887, 0.00999546]),\n",
+       " 'score_time': array([0.0139792 , 0.00599527, 0.00599694, 0.00699568, 0.0059948 ,\n",
+       "        0.00849938, 0.00699234, 0.0069809 , 0.00699186, 0.0059948 ]),\n",
+       " 'test_precision': array([0.90625   , 0.90625   , 1.        , 0.93548387, 0.96666667,\n",
+       "        0.93548387, 0.96551724, 0.96666667, 0.90625   , 1.        ]),\n",
+       " 'test_average_precision': array([0.98823104, 0.99885057, 1.        , 0.99642999, 0.97666351,\n",
+       "        1.        , 0.99885057, 0.99885057, 0.99885057, 1.        ]),\n",
+       " 'test_recall': array([0.96666667, 1.        , 1.        , 1.        , 1.        ,\n",
+       "        1.        , 0.96551724, 1.        , 1.        , 1.        ]),\n",
+       " 'test_f1': array([0.93548387, 0.95081967, 1.        , 0.96666667, 0.98305085,\n",
+       "        0.96666667, 0.96551724, 0.98305085, 0.95081967, 1.        ])}"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "cross_validate(pipe, X_train, y_train, cv=10, scoring=['precision', 'average_precision', 'recall', 'f1'])"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
