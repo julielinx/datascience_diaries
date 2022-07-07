@@ -1,0 +1,3511 @@
+1
+00:00:05,893 --> 00:00:07,501
+<I>Previously on "Mad Men"...</I>
+
+2
+00:00:08,489 --> 00:00:09,734
+Who's your little friend here?
+
+3
+00:00:09,980 --> 00:00:11,104
+She's the new girl.
+
+4
+00:00:11,413 --> 00:00:12,613
+Management gets all the perks.
+
+5
+00:00:12,715 --> 00:00:13,760
+Why are you here?
+
+6
+00:00:13,936 --> 00:00:15,228
+I'm gettin' married on sunday.
+
+7
+00:00:16,665 --> 00:00:18,782
+I'm your boss, not your boyfriend.
+
+8
+00:00:19,035 --> 00:00:20,409
+We can say anything we want.
+
+9
+00:00:20,561 --> 00:00:21,571
+I get it.
+
+10
+00:00:21,665 --> 00:00:23,037
+Don thanks again for the home run.
+
+11
+00:00:23,215 --> 00:00:24,495
+I love to come through.
+
+12
+00:00:24,853 --> 00:00:25,853
+I Don't make plans...
+
+13
+00:00:26,039 --> 00:00:27,119
+And I Don't make breakfast.
+
+14
+00:00:28,665 --> 00:00:29,785
+There's a plate in the oven.
+
+15
+00:00:31,789 --> 00:00:33,309
+I'm living like there's no tomorrow...
+
+16
+00:00:34,037 --> 00:00:35,037
+Because there isn't one.
+
+17
+00:01:12,338 --> 00:01:14,216
+Season 1 Episode 2
+<i>Ladies Room</i>
+
+18
+00:01:27,656 --> 00:01:29,518
+You should get him
+to put another egg in it.
+
+19
+00:01:29,729 --> 00:01:31,807
+- Roger.
+- Darling, one egg is good...
+
+20
+00:01:31,989 --> 00:01:33,445
+Two eggs are better.
+
+23
+00:01:34,630 --> 00:01:36,015
+Tell the, uh, lieutenant, please,
+
+24
+00:01:36,215 --> 00:01:38,974
+that things are getting
+a little dry around code 29.
+
+25
+00:01:39,331 --> 00:01:40,364
+Am I wrong?
+
+26
+00:01:40,575 --> 00:01:42,101
+All clear in no man's land.
+
+27
+00:01:42,759 --> 00:01:45,592
+Roger, you've expressed
+your desire for another drink,
+
+28
+00:01:46,078 --> 00:01:47,158
+no need to take the orders.
+
+29
+00:01:47,384 --> 00:01:48,410
+Right away, sir.
+
+30
+00:01:48,575 --> 00:01:49,691
+Wine list?
+
+31
+00:01:49,702 --> 00:01:52,579
+And I'll have another one of these
+while I'm waiting for the list.
+
+32
+00:01:53,261 --> 00:01:54,515
+Another egg.
+
+33
+00:01:55,139 --> 00:01:56,419
+Well, I am having fried chicken.
+
+34
+00:01:57,077 --> 00:01:58,317
+As long as the egg comes first.
+
+35
+00:01:58,638 --> 00:02:00,078
+My nanny, belva, made fried chicken.
+
+36
+00:02:00,201 --> 00:02:02,819
+I used to take it to school
+wrapped in wax paper.
+
+37
+00:02:03,891 --> 00:02:06,449
+His sweet belvedere,
+he really loved that woman.
+
+38
+00:02:07,014 --> 00:02:08,849
+Had another nanny
+originally, german girl,
+
+39
+00:02:09,203 --> 00:02:10,283
+round face, enormous bosom.
+
+40
+00:02:11,519 --> 00:02:14,117
+My parents got rid of her
+after the Lindbergh baby.
+
+41
+00:02:14,829 --> 00:02:16,149
+We thought about getting a nanny.
+
+42
+00:02:16,577 --> 00:02:19,496
+We have a girl that comes in
+as sort of a house keeper
+
+43
+00:02:19,956 --> 00:02:20,956
+and sometimes babysitter.
+
+44
+00:02:21,314 --> 00:02:23,058
+I let her take the children
+to play group,
+
+45
+00:02:23,269 --> 00:02:24,514
+sometimes the park.
+
+46
+00:02:24,925 --> 00:02:26,052
+Belva raised me.
+
+47
+00:02:26,252 --> 00:02:27,639
+I turned out just fine.
+
+48
+00:02:28,141 --> 00:02:29,541
+Didn't have to go to a psychiatrist
+
+49
+00:02:29,655 --> 00:02:30,665
+like some people's kids.
+
+50
+00:02:30,830 --> 00:02:31,830
+Oh, what's the big deal?
+
+51
+00:02:32,580 --> 00:02:34,060
+Margaret is practically the last girl
+
+52
+00:02:34,267 --> 00:02:35,267
+in our building to go.
+
+53
+00:02:35,578 --> 00:02:37,634
+Sixteen-years-old,
+wouldn't get out of bed.
+
+54
+00:02:37,864 --> 00:02:40,175
+I tell ya, I can not wait
+until that girl
+
+55
+00:02:40,455 --> 00:02:41,455
+is another man's problem.
+
+56
+00:02:41,970 --> 00:02:43,946
+What about you, Don,
+did you have a nanny?
+
+57
+00:02:45,767 --> 00:02:47,207
+I can't tell you about my childhood,
+
+58
+00:02:47,582 --> 00:02:49,102
+it'll ruin the first half of my novel.
+
+59
+00:02:49,768 --> 00:02:51,328
+Don doesn't like to talk about himself.
+
+60
+00:02:51,889 --> 00:02:52,929
+I know better than to ask.
+
+61
+00:02:53,085 --> 00:02:55,230
+An add man who doesn't like
+to talk about himself...
+
+62
+00:02:55,335 --> 00:02:56,455
+I think I may cry.
+
+63
+00:02:57,330 --> 00:02:58,690
+It's not that interesting a story,
+
+64
+00:02:59,705 --> 00:03:00,745
+just think of me as moses.
+
+65
+00:03:03,018 --> 00:03:04,018
+I was a baby in a basket.
+
+66
+00:03:05,267 --> 00:03:06,307
+To moses and Don Draper...
+
+67
+00:03:07,580 --> 00:03:08,580
+Couple of princes.
+
+68
+00:03:12,140 --> 00:03:13,460
+If the gentleman will be patient.
+
+69
+00:03:14,831 --> 00:03:15,831
+I'll join you.
+
+70
+00:03:25,518 --> 00:03:27,078
+I think I may know more about your wife
+
+71
+00:03:27,329 --> 00:03:28,329
+than I do about my own.
+
+72
+00:03:28,934 --> 00:03:30,970
+Maybe your wife is just
+a better drinker.
+
+73
+00:03:31,205 --> 00:03:32,205
+Entirely possible.
+
+74
+00:03:47,833 --> 00:03:48,913
+Mona, can you help me here.
+
+75
+00:03:49,143 --> 00:03:50,503
+I've seem to grow a set of thumbs.
+
+76
+00:03:51,997 --> 00:03:54,831
+Do you ever have that
+when your hands go numb?
+
+77
+00:03:57,730 --> 00:03:59,133
+Want me to touch you up?
+
+78
+00:03:59,439 --> 00:04:02,093
+I think you'll have to.
+
+79
+00:04:03,765 --> 00:04:05,594
+Look at those lips.
+
+80
+00:04:06,756 --> 00:04:07,836
+I bet it's not hard for you
+
+81
+00:04:08,630 --> 00:04:09,830
+to hold on to a man like that.
+
+82
+00:04:11,128 --> 00:04:12,488
+Don't smile, it'll make it harder.
+
+83
+00:04:15,607 --> 00:04:18,220
+It's hard to hold on
+to anything right now
+
+84
+00:04:18,542 --> 00:04:21,336
+with the children and running the house.
+
+85
+00:04:21,878 --> 00:04:22,958
+I Don't know if I told you,
+
+86
+00:04:23,004 --> 00:04:24,444
+but my mother died three months ago.
+
+87
+00:04:27,775 --> 00:04:29,256
+I'm sorry...
+
+88
+00:04:30,006 --> 00:04:32,966
+There are other ladies
+waiting to use the mirror.
+
+89
+00:04:40,819 --> 00:04:41,979
+Those purses get any smaller,
+
+90
+00:04:42,316 --> 00:04:43,316
+we're gonna starve.
+
+91
+00:04:50,004 --> 00:04:51,164
+I loved seeing you like that.
+
+92
+00:04:53,004 --> 00:04:54,564
+Well, you were sitting on my good side.
+
+93
+00:04:55,353 --> 00:04:59,152
+No, I mean, the way
+other people see you.
+
+94
+00:05:00,557 --> 00:05:03,853
+When you're with strangers
+you know exactly what you want.
+
+95
+00:05:04,318 --> 00:05:06,695
+Well, I'd like to think
+I always know what I want.
+
+96
+00:05:07,568 --> 00:05:08,568
+Um, slow down.
+
+97
+00:05:10,504 --> 00:05:11,744
+I have to put that in my diary.
+
+98
+00:05:12,207 --> 00:05:14,483
+Lobster, Newberg, and Gimlets
+should get a divorce.
+
+99
+00:05:15,193 --> 00:05:16,633
+They're not getting along very well.
+
+100
+00:05:17,466 --> 00:05:19,251
+Once you rounded the corner
+on number two,
+
+101
+00:05:19,441 --> 00:05:21,156
+I took it for a case of nerves.
+
+102
+00:05:21,692 --> 00:05:22,692
+He's your boss.
+
+103
+00:05:24,692 --> 00:05:25,692
+He likes you.
+
+104
+00:05:27,381 --> 00:05:28,421
+Toujour means he likes me.
+
+105
+00:05:30,818 --> 00:05:32,258
+When he gets us to the four seasons,
+
+106
+00:05:32,755 --> 00:05:33,915
+then we'll know he trusts me.
+
+107
+00:05:35,442 --> 00:05:36,562
+He seemed very forth coming.
+
+108
+00:05:38,629 --> 00:05:39,669
+He was stoned on martinis.
+
+109
+00:05:41,129 --> 00:05:42,129
+I Don't know...
+
+110
+00:05:42,713 --> 00:05:47,094
+It all seemed like
+an invitation to-to confide.
+
+111
+00:05:49,131 --> 00:05:50,331
+Well, maybe it's just manners,
+
+112
+00:05:51,192 --> 00:05:54,394
+but I was raised to see it
+as a sin of pride
+
+113
+00:05:54,755 --> 00:05:56,852
+to go on like that about yourself.
+
+114
+00:05:57,568 --> 00:05:58,568
+You're so reverent.
+
+115
+00:06:13,133 --> 00:06:14,133
+Did you have a nanny?
+
+116
+00:06:15,193 --> 00:06:16,233
+I've never asked you that.
+
+117
+00:06:16,794 --> 00:06:18,925
+Why? What difference does it make?
+
+118
+00:06:19,790 --> 00:06:22,405
+I Don't know.
+We've never talked about it.
+
+119
+00:06:23,550 --> 00:06:25,130
+Did you?
+
+120
+00:06:27,651 --> 00:06:29,005
+No, of course not.
+
+121
+00:06:30,878 --> 00:06:33,133
+So your mother and
+your father are responsible
+
+122
+00:06:33,507 --> 00:06:34,507
+for all this?
+
+123
+00:06:36,133 --> 00:06:37,413
+I'll have to thank them someday.
+
+124
+00:06:38,069 --> 00:06:42,129
+Jesus, bets, it's like politics,
+religion,
+
+125
+00:06:42,758 --> 00:06:43,758
+or sex...
+
+126
+00:06:45,571 --> 00:06:46,571
+Why talk about it?
+
+127
+00:06:50,493 --> 00:06:51,809
+I see your point.
+
+128
+00:07:19,433 --> 00:07:20,433
+Who's in there?
+
+129
+00:07:30,133 --> 00:07:32,786
+Peggy, next step is accessories.
+
+130
+00:07:34,113 --> 00:07:37,807
+$35 a week minus 6.75 for fica.
+
+131
+00:07:38,109 --> 00:07:39,455
+Can you believe it?
+
+132
+00:07:39,797 --> 00:07:42,603
+Maybe it's the fumes from
+the rubber cement on that envelope,
+
+133
+00:07:42,942 --> 00:07:44,771
+but there's nothing to be
+happy about here.
+
+134
+00:07:45,130 --> 00:07:47,462
+Although, you never forget your worth.
+
+135
+00:07:47,727 --> 00:07:49,312
+For two weeks, I've been telling people
+
+136
+00:07:49,535 --> 00:07:51,056
+I have a job in manhattan.
+
+137
+00:07:51,684 --> 00:07:52,964
+Look at you, you're indomitable.
+
+138
+00:07:53,749 --> 00:07:57,187
+You'd never know you were
+the very bottom of the food chain.
+
+139
+00:07:58,807 --> 00:07:59,807
+Bridget, are you okay?
+
+140
+00:08:06,741 --> 00:08:08,636
+Thanks to the precision
+valve corporation
+
+141
+00:08:08,906 --> 00:08:10,032
+for the next 18 months,
+
+142
+00:08:10,193 --> 00:08:12,203
+Gillette is the only company on earth
+
+143
+00:08:12,451 --> 00:08:14,266
+that can spray deodorant out of a can.
+
+144
+00:08:14,561 --> 00:08:16,717
+Modern deodorant for a modern man.
+
+145
+00:08:17,558 --> 00:08:19,078
+He prefers jet travel to train travel,
+
+146
+00:08:20,121 --> 00:08:21,121
+vodka scotch,
+
+147
+00:08:21,350 --> 00:08:23,742
+and likes to get his news
+from the radio, not the paper.
+
+148
+00:08:24,023 --> 00:08:25,491
+Harold hill, give it a rest.
+
+149
+00:08:25,795 --> 00:08:27,845
+Oh, do not puncture or incinerate...
+
+150
+00:08:28,010 --> 00:08:29,317
+Sounds dangerous.
+
+151
+00:08:31,480 --> 00:08:32,935
+Hey, I got a dud.
+
+152
+00:08:36,345 --> 00:08:38,300
+How is it a guy as big as you, Ken,
+
+153
+00:08:38,662 --> 00:08:40,390
+has no basketball skills?
+
+154
+00:08:41,339 --> 00:08:42,579
+I'm sure more research is need.
+
+155
+00:08:44,591 --> 00:08:45,591
+You should try it out.
+
+156
+00:08:46,839 --> 00:08:47,839
+Who smells bad in here?
+
+157
+00:08:50,339 --> 00:08:51,339
+Oh no, come on.
+
+158
+00:08:51,645 --> 00:08:52,652
+Come on, Kenny.
+
+159
+00:08:52,777 --> 00:08:53,779
+Knock it off!
+
+160
+00:08:53,819 --> 00:08:55,025
+Just pretend it's prom night.
+
+161
+00:08:55,090 --> 00:08:56,097
+You can be the girl.
+
+162
+00:08:56,255 --> 00:08:57,338
+Stop!
+
+163
+00:08:57,339 --> 00:08:58,419
+All right, close your eyes.
+
+164
+00:09:02,030 --> 00:09:03,665
+Mr. Draper, I was buzzing you.
+
+165
+00:09:04,105 --> 00:09:05,841
+Mr. Cooper is waiting.
+
+166
+00:09:07,389 --> 00:09:10,107
+I always thought it was Sterling
+who was responsible
+
+167
+00:09:10,779 --> 00:09:12,379
+for the navy attitude around this place.
+
+168
+00:09:12,675 --> 00:09:13,901
+Brazerre account...
+
+169
+00:09:14,223 --> 00:09:16,520
+Just figured out
+we can't sell 'em to men.
+
+170
+00:09:16,997 --> 00:09:19,992
+So much yarn, so little time.
+
+171
+00:09:26,178 --> 00:09:27,618
+So roger mentioned this nixon thing?
+
+172
+00:09:29,802 --> 00:09:30,802
+Yeah, he mentioned it.
+
+173
+00:09:30,864 --> 00:09:31,984
+I just assumed it went away.
+
+174
+00:09:32,366 --> 00:09:33,366
+It didn't.
+
+175
+00:09:33,740 --> 00:09:35,951
+The last I read, Nixon was running
+without an agency.
+
+176
+00:09:36,091 --> 00:09:37,491
+Make no mistake,
+
+177
+00:09:37,496 --> 00:09:39,056
+we know better what dick nixon needs...
+
+178
+00:09:40,180 --> 00:09:41,180
+Better than dick nixon.
+
+179
+00:09:41,486 --> 00:09:43,491
+And what does Dick Nixon think he needs?
+
+180
+00:09:43,492 --> 00:09:44,852
+What he already has... Ted rogers,
+
+181
+00:09:45,992 --> 00:09:47,512
+brains behind that checkers broadcast.
+
+182
+00:09:47,930 --> 00:09:48,930
+See the problem?
+
+183
+00:09:49,219 --> 00:09:51,611
+He dodged a financial
+scandal by standing
+
+184
+00:09:51,812 --> 00:09:53,455
+with his wife and begging for his dog.
+
+185
+00:09:53,584 --> 00:09:55,240
+An admission wrapped
+in a distraction...
+
+186
+00:09:55,241 --> 00:09:56,491
+I'd say they know what they're doing.
+
+187
+00:09:56,492 --> 00:09:57,502
+Dogs are winners.
+
+188
+00:09:57,554 --> 00:09:58,743
+Well, they think they're set without us.
+
+189
+00:09:58,744 --> 00:10:00,051
+Why chase a girl that
+doesn't want to get caught.
+
+190
+00:10:00,052 --> 00:10:01,252
+You have a problem with Nixon?
+
+191
+00:10:02,303 --> 00:10:03,303
+I Don't vote.
+
+192
+00:10:03,803 --> 00:10:04,803
+Hear-hear,
+
+193
+00:10:05,288 --> 00:10:07,448
+but politics aside
+these last eight years
+
+194
+00:10:07,589 --> 00:10:09,478
+have been good to us
+because they've been good
+
+195
+00:10:09,659 --> 00:10:12,809
+to Proctor and Gamble and
+united fruit company, etcetera.
+
+196
+00:10:13,070 --> 00:10:14,819
+So whether Dick Nixon likes it or not...
+
+197
+00:10:15,060 --> 00:10:18,558
+We will give our people
+what they want, agreed?
+
+198
+00:10:19,625 --> 00:10:20,892
+<I>I said cut it out!</I>
+
+199
+00:10:21,336 --> 00:10:22,542
+Be my pleasure.
+
+200
+00:10:22,944 --> 00:10:24,049
+Goodie.
+
+201
+00:10:26,275 --> 00:10:28,930
+Assemble a team.
+Start files on contenders.
+
+202
+00:10:29,177 --> 00:10:30,431
+Simington, Kennedy...
+
+203
+00:10:30,519 --> 00:10:32,368
+Who knows, maybe
+Eleanor Roosevelt will throw
+
+204
+00:10:32,408 --> 00:10:34,177
+her feed bag into the ring.
+
+205
+00:10:34,490 --> 00:10:35,610
+Don, you still on for lunch?
+
+206
+00:10:36,804 --> 00:10:37,804
+No.
+
+207
+00:10:42,598 --> 00:10:44,072
+Don't tell me that's lunch?
+
+208
+00:10:44,970 --> 00:10:46,886
+I've got a lot of work to catch up on.
+
+209
+00:10:47,130 --> 00:10:50,045
+I do that sometimes. Saunter over to
+the pie cart, egg salad,
+
+210
+00:10:50,206 --> 00:10:51,975
+and the worst cup of coffee
+in the world...
+
+211
+00:10:52,179 --> 00:10:53,179
+Thirty-five cents.
+
+212
+00:10:53,724 --> 00:10:55,308
+I've been meaning to try it.
+
+213
+00:10:55,589 --> 00:10:57,384
+It's okay if you like
+ptomaine poisoning.
+
+214
+00:10:59,938 --> 00:11:01,554
+Well, too-da-loo.
+
+215
+00:11:03,909 --> 00:11:05,243
+Secretary, one.
+
+216
+00:11:05,479 --> 00:11:06,706
+Copy-writer, zero.
+
+217
+00:11:07,015 --> 00:11:08,282
+It wasn't that.
+
+218
+00:11:08,502 --> 00:11:09,568
+I bring my lunch,
+
+219
+00:11:09,689 --> 00:11:11,498
+at least until after
+the first of the month.
+
+220
+00:11:11,676 --> 00:11:12,869
+Get your things.
+
+221
+00:11:13,597 --> 00:11:15,232
+That sandwich is making me sad.
+
+222
+00:11:18,825 --> 00:11:21,001
+It's a postcard from Campbell
+on his honeymoon.
+
+223
+00:11:21,890 --> 00:11:23,305
+Niagara falls.
+
+224
+00:11:23,930 --> 00:11:25,946
+"Greetings from the wettest place
+on earth."
+
+225
+00:11:27,694 --> 00:11:29,362
+I say we skip lunch all together
+
+226
+00:11:29,554 --> 00:11:30,994
+and try on those narrow sweater sets
+
+227
+00:11:31,055 --> 00:11:32,055
+I saw at lord and taylor.
+
+228
+00:11:32,406 --> 00:11:34,479
+Do you want me to sit outside
+the dressing room
+
+229
+00:11:34,480 --> 00:11:35,480
+and hold your purse?
+
+230
+00:11:35,873 --> 00:11:38,250
+What he's trying to say is,
+can we buy you lunch?
+
+231
+00:11:39,978 --> 00:11:41,767
+I Don't know,
+we hadn't planned on eating.
+
+232
+00:11:41,981 --> 00:11:43,195
+Come on, three on two.
+
+233
+00:11:43,326 --> 00:11:46,363
+I know you all like to be out numbered.
+It's two on two, I'm married.
+
+234
+00:11:47,076 --> 00:11:48,973
+You still have to eat lunch.
+
+235
+00:11:49,392 --> 00:11:51,047
+What do you say, change of plans?
+
+236
+00:11:51,462 --> 00:11:52,854
+They do smell nice.
+
+237
+00:11:54,216 --> 00:11:55,362
+What's that?
+
+238
+00:11:55,623 --> 00:11:57,285
+Postcard from Pete Campbell.
+
+239
+00:11:57,291 --> 00:11:58,375
+He's on a honeymoon, right?
+
+240
+00:11:58,516 --> 00:11:59,541
+Niagara falls.
+
+241
+00:11:59,682 --> 00:12:01,310
+He hasn't left the room, apparently.
+
+242
+00:12:08,788 --> 00:12:10,215
+Shall we?
+
+243
+00:12:15,687 --> 00:12:19,184
+so, Peggs, you part of
+our nations' military-
+
+244
+00:12:19,426 --> 00:12:21,858
+industrial boyfriend-
+girlfriend complex?
+
+245
+00:12:22,363 --> 00:12:23,368
+Excuse me?
+
+246
+00:12:23,569 --> 00:12:26,223
+He wants to know are
+you taken, you kept,
+
+247
+00:12:26,263 --> 00:12:27,352
+or merely browsing?
+
+248
+00:12:27,353 --> 00:12:28,353
+She's browsing,
+
+249
+00:12:28,604 --> 00:12:30,124
+and like most of us she's disappointed
+
+250
+00:12:30,416 --> 00:12:31,776
+with the selection of merchandise.
+
+251
+00:12:32,823 --> 00:12:34,939
+Perhaps, I can interest you
+in a 42 long.
+
+252
+00:12:35,729 --> 00:12:36,729
+That's not his suit size.
+
+253
+00:12:38,978 --> 00:12:39,978
+She blushes.
+
+254
+00:12:39,979 --> 00:12:40,980
+No I Don't.
+
+255
+00:12:41,100 --> 00:12:42,830
+You know, maybe
+I shouldn't tell you this,
+
+256
+00:12:42,924 --> 00:12:44,673
+but you are the subject of much debate.
+
+257
+00:12:44,853 --> 00:12:46,587
+Money riding on the outcome.
+
+258
+00:12:46,916 --> 00:12:47,916
+Money for me?
+
+259
+00:12:48,166 --> 00:12:49,726
+Now there's even a third possibility...
+
+260
+00:12:50,416 --> 00:12:51,416
+Paying you.
+
+261
+00:12:52,730 --> 00:12:53,770
+We should be getting back.
+
+262
+00:12:54,978 --> 00:12:55,978
+I'll get the check.
+
+263
+00:12:56,104 --> 00:12:57,664
+My goodness, thank you for lunch, boys.
+
+264
+00:12:58,480 --> 00:12:59,480
+Yes, thank you.
+
+265
+00:13:03,104 --> 00:13:04,704
+Hmm, take the rest of the afternoon off.
+
+266
+00:13:05,481 --> 00:13:06,481
+We could go to the zoo,
+
+267
+00:13:07,731 --> 00:13:08,971
+see what the animals are up to.
+
+268
+00:13:10,417 --> 00:13:11,417
+Um...
+
+269
+00:13:12,231 --> 00:13:13,231
+I should get back to work
+
+270
+00:13:13,981 --> 00:13:14,981
+or shopping.
+
+271
+00:13:16,745 --> 00:13:19,016
+Guess you Don't seeing
+any money changing hands, Kenny.
+
+272
+00:13:19,157 --> 00:13:21,651
+You'll see...
+My persistence is my charm.
+
+273
+00:13:22,442 --> 00:13:23,917
+That was delicious.
+
+274
+00:13:29,868 --> 00:13:31,737
+You enjoy yourself with
+the hitler youth?
+
+275
+00:13:31,917 --> 00:13:34,129
+Oh, well it was kind of last minute...
+
+276
+00:13:34,330 --> 00:13:36,279
+Easy... See that Draper takes
+a look at these?
+
+277
+00:13:36,540 --> 00:13:37,794
+Certainly.
+
+278
+00:13:39,027 --> 00:13:40,542
+You can look too.
+
+279
+00:13:46,355 --> 00:13:47,635
+Three of the last pta presidents
+
+280
+00:13:48,346 --> 00:13:49,793
+are from the kindergarten class,
+
+281
+00:13:50,034 --> 00:13:52,110
+I say you go in there and
+lay some ground work.
+
+282
+00:13:52,481 --> 00:13:54,737
+I will not have
+Marilyn Keckner dictate the agenda.
+
+283
+00:13:54,973 --> 00:13:56,648
+The woman is obsessed with nutrition.
+
+284
+00:13:57,006 --> 00:13:58,967
+Although, you wouldn't know it
+to look at her.
+
+285
+00:13:59,155 --> 00:14:00,895
+Francine, you're terrible.
+
+286
+00:14:02,310 --> 00:14:04,745
+I ran into Juanita cabet
+at square dancing
+
+287
+00:14:04,905 --> 00:14:06,251
+and I found out who's moving into
+
+288
+00:14:06,412 --> 00:14:08,201
+that little dutch colonial
+down the street.
+
+289
+00:14:08,539 --> 00:14:09,544
+Who?
+
+290
+00:14:09,856 --> 00:14:10,856
+Her name is helen bishop.
+
+291
+00:14:11,929 --> 00:14:12,929
+Is she an old lady?
+
+292
+00:14:13,232 --> 00:14:14,232
+Divorced.
+
+293
+00:14:14,733 --> 00:14:15,733
+Really?
+
+294
+00:14:17,045 --> 00:14:18,205
+Nine-year-old boy and a baby.
+
+295
+00:14:20,304 --> 00:14:21,606
+That's awful.
+
+296
+00:14:21,607 --> 00:14:22,607
+I know.
+
+297
+00:14:22,647 --> 00:14:23,668
+All on her own?
+
+298
+00:14:23,669 --> 00:14:24,669
+I know.
+
+299
+00:14:25,855 --> 00:14:27,295
+Can you imagine worrying about money
+
+300
+00:14:27,732 --> 00:14:28,812
+at this point in our lives.
+
+301
+00:14:30,154 --> 00:14:32,176
+Well, obviously,
+that's not the worst of it.
+
+302
+00:14:32,417 --> 00:14:33,731
+No.
+
+303
+00:14:34,447 --> 00:14:35,919
+No, it isn't.
+
+304
+00:14:36,781 --> 00:14:38,356
+It is too quiet in there.
+
+305
+00:14:38,795 --> 00:14:39,800
+Ernie?
+
+306
+00:14:40,001 --> 00:14:41,006
+Sally?
+
+307
+00:14:41,227 --> 00:14:43,277
+We're playing space man.
+
+308
+00:14:45,217 --> 00:14:46,817
+Sally Draper come over here this minute.
+
+309
+00:14:50,134 --> 00:14:51,974
+If the clothes from
+that dry cleaning bag
+
+310
+00:14:52,092 --> 00:14:53,172
+are on the floor my closet,
+
+311
+00:14:53,278 --> 00:14:55,086
+you're going to be
+a very sorry young lady.
+
+312
+00:14:57,654 --> 00:15:00,379
+Make sure your brother
+hasn't climbed out of the play yard.
+
+313
+00:15:00,591 --> 00:15:02,600
+Juanita it might be bad
+for real estate value
+
+314
+00:15:02,839 --> 00:15:03,839
+and she'll mark...
+
+315
+00:15:04,149 --> 00:15:05,528
+One divorcee?
+
+316
+00:15:19,346 --> 00:15:20,758
+Bobby!
+
+317
+00:16:06,386 --> 00:16:07,386
+oh my God!
+
+318
+00:16:07,952 --> 00:16:08,952
+Are you okay?
+
+319
+00:16:40,618 --> 00:16:41,801
+what's that?
+
+320
+00:16:43,069 --> 00:16:44,093
+What?
+
+321
+00:16:44,233 --> 00:16:45,452
+That.
+
+322
+00:16:46,900 --> 00:16:48,341
+Oh, that's a television.
+
+323
+00:16:48,494 --> 00:16:50,284
+Since when do you have a television?
+
+324
+00:16:50,904 --> 00:16:51,904
+I Don't know.
+
+325
+00:16:52,032 --> 00:16:53,352
+I think it's been about ten days.
+
+326
+00:16:54,335 --> 00:16:56,396
+It's been so amazing
+I sort of lost track.
+
+327
+00:16:57,363 --> 00:16:58,569
+I seem to remember a woman
+
+328
+00:16:58,743 --> 00:17:00,704
+wasting a good piece
+of a beautiful afternoon
+
+329
+00:17:00,927 --> 00:17:03,055
+reciting this diatrave
+against television
+
+330
+00:17:03,797 --> 00:17:06,398
+that should've ended with her banging
+her shoe on the table.
+
+331
+00:17:08,604 --> 00:17:10,590
+Don darling if
+you wanna ask the question,
+
+332
+00:17:11,392 --> 00:17:12,437
+just ask it.
+
+333
+00:17:12,598 --> 00:17:13,905
+Where'd you get the tv?
+
+334
+00:17:14,282 --> 00:17:15,717
+I got it.
+
+335
+00:17:16,312 --> 00:17:17,900
+Same place you got that wig?
+
+336
+00:17:18,182 --> 00:17:19,408
+Someone gave it to me.
+
+337
+00:17:21,725 --> 00:17:23,033
+And you took it?
+
+338
+00:17:23,555 --> 00:17:25,946
+Have you seen this thing
+called "people are funny?"
+
+339
+00:17:30,962 --> 00:17:32,155
+oh jesus, Don.
+
+340
+00:17:40,327 --> 00:17:41,842
+All better?
+
+341
+00:17:43,972 --> 00:17:45,098
+Yes.
+
+342
+00:17:57,497 --> 00:17:59,012
+Sit at your places.
+
+343
+00:18:15,109 --> 00:18:16,154
+Daddy!
+
+344
+00:18:16,404 --> 00:18:17,570
+We went to the hospital.
+
+345
+00:18:17,791 --> 00:18:19,325
+We got lollipops.
+
+346
+00:18:24,159 --> 00:18:25,513
+They're fine, Don.
+
+347
+00:18:28,202 --> 00:18:29,576
+What about you?
+
+348
+00:18:30,296 --> 00:18:31,327
+A little sore,
+
+349
+00:18:32,399 --> 00:18:33,704
+a little embarrassed.
+
+350
+00:18:34,451 --> 00:18:36,140
+Sorry they couldn't get ahold of me,
+
+351
+00:18:36,265 --> 00:18:38,752
+we had to carry Freddy Rumsen
+out of ratazys.
+
+352
+00:18:39,337 --> 00:18:41,263
+Oh there was nothing you could've done.
+
+353
+00:18:46,882 --> 00:18:48,452
+Daddy, use a fork.
+
+354
+00:18:50,252 --> 00:18:51,637
+How's the car?
+
+355
+00:18:52,542 --> 00:18:53,887
+Not bad.
+
+356
+00:18:54,138 --> 00:18:55,698
+Uh, thank God I was only going 25-tops.
+
+357
+00:18:56,973 --> 00:18:58,790
+I hate the way you drive, you know?
+
+358
+00:18:59,645 --> 00:19:02,245
+I'm finished. Can I go watch
+Shirley Temple story book?
+
+359
+00:19:02,507 --> 00:19:03,828
+Yes, both of you.
+
+360
+00:19:12,640 --> 00:19:13,640
+So what happened?
+
+361
+00:19:15,211 --> 00:19:16,514
+I Don't know really.
+
+362
+00:19:17,387 --> 00:19:20,291
+It all happened so fast.
+
+363
+00:19:21,934 --> 00:19:24,713
+At 20 an hour, it's not that fast.
+
+364
+00:19:27,106 --> 00:19:28,130
+It's stupid.
+
+365
+00:19:28,992 --> 00:19:30,729
+Was it Sally playing
+with the radio again?
+
+366
+00:19:30,851 --> 00:19:32,211
+I've warned her. no, she was fine.
+
+367
+00:19:32,663 --> 00:19:33,863
+She was just sitting there-no.
+
+368
+00:19:37,290 --> 00:19:38,290
+It was my hands.
+
+369
+00:19:38,539 --> 00:19:39,539
+It happened again.
+
+370
+00:19:43,355 --> 00:19:44,665
+Jesus.
+
+371
+00:19:45,890 --> 00:19:47,931
+Betty you have to get
+this taken care of.
+
+372
+00:19:49,177 --> 00:19:51,376
+That doctor patterson is not through.
+
+373
+00:19:51,583 --> 00:19:53,436
+I swear when we walk down park avenue,
+
+374
+00:19:53,540 --> 00:19:54,580
+I could hear the quacking.
+
+375
+00:19:54,663 --> 00:19:55,663
+I know you said that.
+
+376
+00:19:56,055 --> 00:19:57,351
+This doctor was nice.
+
+377
+00:19:58,318 --> 00:19:59,728
+He was older actually.
+
+378
+00:20:01,040 --> 00:20:02,040
+He was from rochester.
+
+379
+00:20:02,251 --> 00:20:04,096
+Has two children that
+are ten years apart.
+
+380
+00:20:04,238 --> 00:20:05,758
+Okay, you've given me his credentials.
+
+381
+00:20:06,194 --> 00:20:07,208
+What did he say?
+
+382
+00:20:07,583 --> 00:20:09,105
+Well he said I could go to New-York
+
+383
+00:20:09,330 --> 00:20:11,358
+and run the di tests.
+
+384
+00:20:11,626 --> 00:20:13,260
+And I said that I already had
+
+385
+00:20:13,489 --> 00:20:14,849
+and that the results were negative
+
+386
+00:20:15,166 --> 00:20:16,606
+and he even called doctor patterson.
+
+387
+00:20:20,285 --> 00:20:21,306
+So?
+
+388
+00:20:22,172 --> 00:20:24,669
+They said there was nothing
+physically wrong with me.
+
+389
+00:20:27,190 --> 00:20:29,078
+Then I told him what happened
+
+390
+00:20:29,322 --> 00:20:31,278
+and he said that
+I should see a psychiatrist.
+
+391
+00:20:37,875 --> 00:20:40,842
+Doctors must love that
+they now have an answer
+
+392
+00:20:41,039 --> 00:20:42,430
+for I Don't know what's wrong.
+
+393
+00:20:42,739 --> 00:20:44,516
+He said it could be a nervous condition.
+
+394
+00:20:44,726 --> 00:20:45,926
+Nervous about what... Driving?
+
+395
+00:20:46,352 --> 00:20:48,399
+So we'll go down to
+he grand union parking lot.
+
+396
+00:20:48,540 --> 00:20:49,958
+We'll practice your 10:00 and 2:00.
+
+397
+00:20:50,043 --> 00:20:51,808
+He seemed very concerned
+if you wanna know.
+
+398
+00:20:51,921 --> 00:20:53,048
+But that's their solution.
+
+399
+00:20:53,255 --> 00:20:55,368
+Why not open the hood and poke around.
+
+400
+00:20:57,841 --> 00:20:58,855
+So?
+
+401
+00:20:58,986 --> 00:21:01,003
+So... I left.
+
+402
+00:21:02,479 --> 00:21:03,990
+What else am I supposed to do?
+
+403
+00:21:04,166 --> 00:21:06,280
+Well go to a doctor,
+another doctor-a good one!
+
+404
+00:21:06,543 --> 00:21:08,628
+I'll get a specialist from Burt Cooper.
+
+405
+00:21:08,863 --> 00:21:10,738
+His name's on a wall over
+at Saint Vincents.
+
+406
+00:21:11,264 --> 00:21:12,287
+Okay.
+
+407
+00:21:13,017 --> 00:21:14,965
+And leave the dishes for the girl.
+
+408
+00:21:18,931 --> 00:21:19,931
+Seven...
+
+409
+00:21:20,702 --> 00:21:21,749
+Eight...
+
+410
+00:21:22,439 --> 00:21:23,683
+Nine...
+
+411
+00:21:24,158 --> 00:21:25,369
+Ten...
+
+412
+00:21:25,651 --> 00:21:27,005
+Eleven...
+
+413
+00:21:27,378 --> 00:21:28,494
+Twelve...
+
+414
+00:21:29,726 --> 00:21:31,058
+Ninety-eight...
+
+415
+00:21:31,744 --> 00:21:32,744
+Ninety-nine...
+
+416
+00:21:33,728 --> 00:21:34,994
+One hundred.
+
+417
+00:21:48,380 --> 00:21:50,350
+You know I do worry about you, burty.
+
+418
+00:21:52,493 --> 00:21:53,810
+I know.
+
+419
+00:21:58,906 --> 00:22:00,914
+When you brought it up I was shocked.
+
+420
+00:22:02,943 --> 00:22:04,267
+Although I realized that
+
+421
+00:22:04,784 --> 00:22:06,821
+that's what Doctor Patterson
+
+422
+00:22:07,013 --> 00:22:09,407
+was trying to say in his own way and...
+
+423
+00:22:12,898 --> 00:22:16,156
+It doesn't have as much
+of a sigma today.
+
+424
+00:22:19,972 --> 00:22:22,371
+I just Don't know what
+they can possibly tell you.
+
+425
+00:22:26,871 --> 00:22:28,191
+Doyouthink I need a psychiatrist?
+
+426
+00:22:36,841 --> 00:22:39,113
+I always thought
+people saw psychiatrists
+
+427
+00:22:39,401 --> 00:22:40,746
+when they were unhappy...
+
+428
+00:22:43,132 --> 00:22:44,496
+But I look at you...
+
+429
+00:22:46,711 --> 00:22:47,934
+And this...
+
+430
+00:22:49,869 --> 00:22:51,186
+And them...
+
+431
+00:22:56,684 --> 00:22:57,684
+And that...
+
+432
+00:23:01,309 --> 00:23:02,469
+And I think, are you unhappy?
+
+433
+00:23:06,848 --> 00:23:08,184
+Of course I'm happy.
+
+434
+00:23:09,693 --> 00:23:11,861
+Well that'll be 35 dollars...
+You're welcome.
+
+435
+00:23:14,933 --> 00:23:16,295
+Whatever you think is best.
+
+436
+00:23:17,201 --> 00:23:18,309
+Good.
+
+437
+00:23:47,485 --> 00:23:49,082
+Act of God... Sorry.
+
+438
+00:23:49,570 --> 00:23:51,815
+Someone threw themselves
+in front of the train.
+
+439
+00:23:52,498 --> 00:23:53,665
+Ah, suicide.
+
+440
+00:23:57,270 --> 00:23:58,559
+Okay, boys...
+
+441
+00:23:58,744 --> 00:23:59,998
+What do we have?
+
+442
+00:24:01,182 --> 00:24:05,004
+Gentlemen, the aerosol can is
+nothing less than space age.
+
+443
+00:24:05,872 --> 00:24:07,032
+It's steel, it has exhaust...
+
+444
+00:24:07,559 --> 00:24:08,799
+It's even shaped like a rocket.
+
+445
+00:24:09,122 --> 00:24:10,402
+Certainly an engineering marvel.
+
+446
+00:24:12,191 --> 00:24:13,196
+Right guard.
+
+447
+00:24:13,515 --> 00:24:15,524
+"It works in my suit... Or yours."
+
+448
+00:24:16,163 --> 00:24:18,730
+we'll punch the yellow of
+the moon so it pops behind him.
+
+449
+00:24:24,661 --> 00:24:26,116
+We're looking for new worlds,
+
+450
+00:24:26,313 --> 00:24:28,661
+and with that search comes
+any number of gadgets.
+
+451
+00:24:28,914 --> 00:24:30,583
+It's not just some random association.
+
+452
+00:24:30,821 --> 00:24:31,998
+This thing is shiny.
+
+453
+00:24:32,119 --> 00:24:33,199
+It's explosive.
+
+454
+00:24:33,370 --> 00:24:35,783
+It's from the future...
+A place so close to us now,
+
+455
+00:24:36,138 --> 00:24:37,659
+filled with wonder and ease.
+
+456
+00:24:39,893 --> 00:24:41,414
+Except some people think of the future
+
+457
+00:24:41,498 --> 00:24:42,498
+and it upsets them.
+
+458
+00:24:43,889 --> 00:24:46,227
+They see a rocket, they start
+building a bomb shelter.
+
+459
+00:24:46,452 --> 00:24:48,120
+What? How do you get there?
+
+460
+00:24:48,291 --> 00:24:49,878
+I Don't think it's ridiculous to assume
+
+461
+00:24:50,063 --> 00:24:51,622
+we're looking for other planets
+
+462
+00:24:51,859 --> 00:24:53,296
+because this one will end.
+
+463
+00:24:54,420 --> 00:24:56,093
+I thought we had something here.
+
+464
+00:24:56,324 --> 00:24:58,117
+Who is this moron flying around space?
+
+465
+00:24:58,293 --> 00:25:00,199
+I mean, he pees in his pants.
+
+466
+00:25:03,351 --> 00:25:04,973
+Brass tacks... who buys this?
+
+467
+00:25:06,543 --> 00:25:07,813
+Some woman.
+
+468
+00:25:08,399 --> 00:25:11,366
+Your girl or your mother
+will pick this up
+
+469
+00:25:11,897 --> 00:25:14,249
+walking through
+the grocery store or the druggist.
+
+470
+00:25:14,929 --> 00:25:17,320
+We should be asking ourselves
+"what do women want?"
+
+471
+00:25:17,844 --> 00:25:20,013
+I Don't know, but I wish I had it.
+
+472
+00:25:22,294 --> 00:25:23,294
+Maybe a chesty alien girl
+
+473
+00:25:23,867 --> 00:25:25,147
+also wants to get into his suit.
+
+474
+00:25:25,420 --> 00:25:26,740
+I'm not asking what do women want
+
+475
+00:25:26,855 --> 00:25:29,019
+in some bull crap
+research psychology way.
+
+476
+00:25:29,169 --> 00:25:31,368
+I'm asking, what would
+make a woman look
+
+477
+00:25:31,518 --> 00:25:34,112
+at this man's deodorant
+and say, "I want that"?
+
+478
+00:25:34,292 --> 00:25:36,593
+Well, I've stopped trying
+to figure out what they think.
+
+479
+00:25:36,734 --> 00:25:38,286
+Maybe I should stop paying you.
+
+480
+00:25:42,788 --> 00:25:45,312
+Well, I always thought women
+liked the way we smell.
+
+481
+00:25:45,549 --> 00:25:46,573
+That explains a lot.
+
+482
+00:25:47,095 --> 00:25:48,485
+I feel like we're close here.
+
+483
+00:25:48,644 --> 00:25:49,983
+I mean, this one?
+
+484
+00:25:50,184 --> 00:25:52,418
+The can's right-side up but
+the guy's upside down.
+
+485
+00:25:53,393 --> 00:25:54,407
+No.
+
+486
+00:25:54,578 --> 00:25:55,893
+Let's bring it down to earth.
+
+487
+00:25:59,732 --> 00:26:00,892
+You think they want a cowboy.
+
+488
+00:26:02,918 --> 00:26:03,918
+He's quiet and strong.
+
+489
+00:26:05,987 --> 00:26:09,273
+He always bring the cattle home safe.
+
+490
+00:26:14,234 --> 00:26:15,234
+You watch tv.
+
+491
+00:26:17,669 --> 00:26:18,989
+What if they want something else?
+
+492
+00:26:21,234 --> 00:26:22,234
+Inside, some...
+
+493
+00:26:24,735 --> 00:26:26,175
+Mysterious wish that we're ignoring.
+
+494
+00:26:48,421 --> 00:26:49,421
+How'd it go?
+
+495
+00:26:51,110 --> 00:26:52,110
+I've still got my novel.
+
+496
+00:26:52,919 --> 00:26:53,919
+I'm sorry.
+
+497
+00:26:55,594 --> 00:26:56,920
+Buy me lunch?
+
+498
+00:26:59,923 --> 00:27:03,416
+Samuel, that drape, man,
+it's sadder than a map.
+
+499
+00:27:04,017 --> 00:27:06,523
+Well, it's lightweight and
+it tells me I'm at work,
+
+500
+00:27:07,670 --> 00:27:09,030
+but you sure can talk, mr. Kensey.
+
+501
+00:27:09,798 --> 00:27:10,798
+Sixty cents.
+
+502
+00:27:10,925 --> 00:27:11,925
+What are you doing?
+
+503
+00:27:12,500 --> 00:27:13,645
+Keep the change.
+
+504
+00:27:16,040 --> 00:27:17,382
+You figure the place out yet?
+
+505
+00:27:17,500 --> 00:27:18,514
+What do you mean?
+
+506
+00:27:18,631 --> 00:27:19,921
+How it runs.
+
+507
+00:27:20,112 --> 00:27:22,522
+I know the copywriters tell
+the art department what to do.
+
+508
+00:27:22,700 --> 00:27:25,517
+And I know the account executives
+tell the copywriters what to do.
+
+509
+00:27:25,649 --> 00:27:26,923
+What?
+
+510
+00:27:27,104 --> 00:27:28,574
+No one tells the writers what to do
+
+511
+00:27:28,668 --> 00:27:30,527
+except for the head of creative...
+Your boss.
+
+512
+00:27:30,620 --> 00:27:31,858
+It's all on Draper.
+
+513
+00:27:32,485 --> 00:27:34,419
+Don't think that
+just 'cause he's good looking
+
+514
+00:27:34,545 --> 00:27:35,545
+he's not a writer.
+
+515
+00:27:36,031 --> 00:27:37,054
+Dig.
+
+516
+00:27:37,317 --> 00:27:38,770
+This is the media department.
+
+517
+00:27:38,924 --> 00:27:41,212
+They're where 90% of where
+the client's check goes.
+
+518
+00:27:41,298 --> 00:27:43,860
+They buy space...
+Newspapers, billboards, television,
+
+519
+00:27:44,114 --> 00:27:46,086
+and my favorite aging whore, radio.
+
+520
+00:27:47,048 --> 00:27:50,051
+That's the whole shakedown, actually.
+
+521
+00:27:50,492 --> 00:27:51,918
+All you really need to know.
+
+522
+00:27:52,107 --> 00:27:54,708
+They Don't sell ideas
+or campaigns or jingles,
+
+523
+00:27:54,924 --> 00:27:57,065
+they sell media... at a 15% markup.
+
+524
+00:27:57,237 --> 00:27:59,622
+Creative is just window dressing.
+It's thrown in for free.
+
+525
+00:27:59,785 --> 00:28:00,789
+Really?
+
+526
+00:28:00,939 --> 00:28:03,230
+Accounting... They keep track of
+how much we're spending
+
+527
+00:28:03,315 --> 00:28:04,676
+versus how much we're taking in.
+
+528
+00:28:04,761 --> 00:28:06,141
+And since we're buying futures,
+
+529
+00:28:06,357 --> 00:28:08,132
+if you ever, ever see, um,
+
+530
+00:28:08,883 --> 00:28:10,592
+the man upstairs go in there,
+
+531
+00:28:11,108 --> 00:28:13,285
+grab the lifeboats, baby...
+We're going down.
+
+532
+00:28:16,800 --> 00:28:17,800
+Account management.
+
+533
+00:28:18,555 --> 00:28:20,987
+Where prep schoolers skip arm-in-arm,
+
+534
+00:28:21,128 --> 00:28:23,203
+"wizard of oz" style, joined together
+
+535
+00:28:23,419 --> 00:28:26,670
+by their lack of skill and
+their love of mirrors.
+
+536
+00:28:27,863 --> 00:28:29,825
+Account executives are
+all good at something,
+
+537
+00:28:30,220 --> 00:28:32,905
+although it's never advertising.
+
+538
+00:28:34,341 --> 00:28:35,909
+Submitted for your approval,
+
+539
+00:28:36,604 --> 00:28:37,923
+one peter campbell.
+
+540
+00:28:38,735 --> 00:28:40,235
+A man who recently discovered
+
+541
+00:28:40,414 --> 00:28:42,047
+that the only place for his hand
+
+542
+00:28:42,648 --> 00:28:44,047
+is in your pocket.
+
+543
+00:28:45,309 --> 00:28:46,436
+You watch it?
+
+544
+00:28:46,999 --> 00:28:48,897
+Have you seen it... "the twilight zone"?
+
+545
+00:28:49,703 --> 00:28:51,689
+I Don't think so.
+I Don't like science fiction.
+
+546
+00:28:52,102 --> 00:28:54,014
+I'm gonna pretend you didn't say that.
+
+547
+00:28:54,290 --> 00:28:56,309
+Mitch in media says CBS
+might pull the plug.
+
+548
+00:28:56,584 --> 00:28:57,798
+I'll kill myself.
+
+549
+00:29:04,279 --> 00:29:06,176
+And here we have
+the creative department.
+
+550
+00:29:06,518 --> 00:29:08,312
+The talent. Home sweet home.
+
+551
+00:29:08,852 --> 00:29:10,572
+Like the art department downstairs,
+
+552
+00:29:10,863 --> 00:29:12,927
+they put us far enough
+away from the elevator
+
+553
+00:29:13,298 --> 00:29:14,408
+so we can't sneak out.
+
+554
+00:29:20,372 --> 00:29:23,818
+You know, there are women copywriters.
+
+555
+00:29:25,232 --> 00:29:26,622
+- Good ones?
+- Sure.
+
+556
+00:29:26,998 --> 00:29:28,386
+I mean, you...
+
+557
+00:29:28,568 --> 00:29:30,558
+you can always tell
+when a woman's writing copy,
+
+558
+00:29:30,717 --> 00:29:34,370
+but sometimes she just might be
+the right man, for the job, you know?
+
+559
+00:29:35,886 --> 00:29:37,406
+You must be very creatively satisfied.
+
+560
+00:29:38,197 --> 00:29:39,197
+Let's not lose our heads.
+
+561
+00:29:40,929 --> 00:29:43,361
+Sterling coop is positively cro-magnon.
+
+562
+00:29:43,782 --> 00:29:46,073
+I have a friend... I'm not even
+gonna say what agency...
+
+563
+00:29:46,200 --> 00:29:48,262
+But all they do is smoke
+mary jane and play darts,
+
+564
+00:29:48,356 --> 00:29:51,097
+and honestly, I think they're
+the best store on the street.
+
+565
+00:29:53,980 --> 00:29:55,323
+You like ukrainian food?
+
+566
+00:29:56,156 --> 00:29:57,510
+Oxtail dumplings?
+
+567
+00:29:59,010 --> 00:30:00,530
+We still have a lot of work to do.
+
+568
+00:30:01,137 --> 00:30:02,257
+I think he's still in there.
+
+569
+00:30:02,509 --> 00:30:03,509
+Ah, got it.
+
+570
+00:30:04,945 --> 00:30:06,044
+Thanks for lunch.
+
+571
+00:30:06,391 --> 00:30:07,697
+Sorry about your copy.
+
+572
+00:30:08,697 --> 00:30:09,697
+Thanks for reminding me.
+
+573
+00:30:28,956 --> 00:30:30,441
+I can never get used to the fact that
+
+574
+00:30:30,649 --> 00:30:32,816
+most of the time it looks like
+you're doing nothing.
+
+575
+00:30:34,088 --> 00:30:35,088
+Fix you something?
+
+576
+00:30:35,777 --> 00:30:36,777
+4:30?
+
+577
+00:30:37,589 --> 00:30:38,589
+Close enough.
+
+578
+00:30:39,711 --> 00:30:40,791
+Coop is gonna want a carbon
+
+579
+00:30:40,971 --> 00:30:42,747
+with your hand-picked
+team for Nixon on it,
+
+580
+00:30:42,920 --> 00:30:45,785
+and I warn you right now,
+it includes pete campbell.
+
+581
+00:30:46,929 --> 00:30:48,725
+I should go to Niagara falls
+for two weeks.
+
+582
+00:30:48,878 --> 00:30:50,275
+It does wonders for your career.
+
+583
+00:30:50,480 --> 00:30:51,524
+Niagara falls.
+
+584
+00:30:52,149 --> 00:30:54,469
+Boy, redefines lack of imagination.
+
+585
+00:30:58,086 --> 00:30:59,286
+Ahh, that's where you've been.
+
+586
+00:31:01,276 --> 00:31:02,276
+Let me ask you something.
+
+587
+00:31:04,403 --> 00:31:05,403
+What do women want?
+
+588
+00:31:06,464 --> 00:31:07,464
+Who cares?
+
+589
+00:31:09,586 --> 00:31:10,746
+You mentioned the other night
+
+590
+00:31:11,715 --> 00:31:14,338
+that your daughter had been
+to a psychiatrist.
+
+591
+00:31:16,473 --> 00:31:18,291
+I'm sure you must be
+mistaken about that.
+
+592
+00:31:22,449 --> 00:31:23,449
+You know what?
+
+593
+00:31:23,700 --> 00:31:25,100
+I am very comfortable with my mind.
+
+594
+00:31:26,138 --> 00:31:28,250
+Thoughts clean and
+unclean, loving and...
+
+595
+00:31:28,888 --> 00:31:29,888
+The opposite of that.
+
+596
+00:31:31,204 --> 00:31:32,573
+But I am not a woman.
+
+597
+00:31:33,637 --> 00:31:35,321
+And I think it behooves any man to toss
+
+598
+00:31:35,544 --> 00:31:37,904
+all female troubles into
+the hands of a stranger.
+
+599
+00:31:39,198 --> 00:31:40,866
+We had one head shrinker in the army.
+
+600
+00:31:41,512 --> 00:31:42,512
+A gossip.
+
+601
+00:31:42,823 --> 00:31:44,303
+Busting with other people's thoughts.
+
+602
+00:31:44,886 --> 00:31:46,366
+Hasn't changed much, just costs more.
+
+603
+00:31:46,762 --> 00:31:47,762
+You can't shoot at them.
+
+604
+00:31:48,389 --> 00:31:49,469
+We live in troubling times.
+
+605
+00:31:49,888 --> 00:31:50,888
+We do?
+
+606
+00:31:52,701 --> 00:31:54,301
+Who could not be happy with all of this.
+
+607
+00:31:55,638 --> 00:31:56,878
+Jesus, you know what they want?
+
+608
+00:31:57,198 --> 00:31:58,198
+Everything.
+
+609
+00:31:58,511 --> 00:32:00,031
+Especially if the other girls have it.
+
+610
+00:32:01,335 --> 00:32:05,290
+Trust me, psychiatry is just
+this year's candy pink stove.
+
+611
+00:32:11,640 --> 00:32:12,640
+It's just more happiness.
+
+612
+00:32:21,950 --> 00:32:22,950
+People...
+
+613
+00:32:24,327 --> 00:32:25,327
+Are...
+
+614
+00:32:27,078 --> 00:32:28,078
+Funny!
+
+615
+00:32:30,139 --> 00:32:31,139
+Beauty and the beast.
+
+616
+00:32:31,515 --> 00:32:32,515
+Hey, daddy.
+
+617
+00:32:33,451 --> 00:32:34,731
+Hey there, cold lamb sound good?
+
+618
+00:32:36,826 --> 00:32:37,826
+Yeah.
+
+619
+00:32:43,640 --> 00:32:44,720
+Someone started on a train.
+
+620
+00:32:46,014 --> 00:32:47,014
+In the office.
+
+621
+00:32:48,204 --> 00:32:49,604
+Because of a good day or a bad day?
+
+622
+00:32:51,637 --> 00:32:54,996
+You know, when I told you
+you had everything...
+
+623
+00:32:57,016 --> 00:32:58,016
+I was wrong.
+
+624
+00:33:02,953 --> 00:33:03,953
+Oh my God!
+
+625
+00:33:06,388 --> 00:33:07,561
+White gold,
+
+626
+00:33:08,628 --> 00:33:12,409
+it's got one of those tiny little faces
+that you have to be young to see.
+
+627
+00:33:12,718 --> 00:33:14,678
+Oh, Don its beautiful.
+
+628
+00:33:17,425 --> 00:33:18,775
+The guy at the store set the time
+
+629
+00:33:18,939 --> 00:33:21,710
+but he was english so
+it might be six hours off.
+
+630
+00:33:22,684 --> 00:33:24,222
+Did you look at Sally's face?
+
+631
+00:33:25,517 --> 00:33:26,517
+I think she has a bruise.
+
+632
+00:33:26,757 --> 00:33:27,826
+I didn't see it.
+
+633
+00:33:28,156 --> 00:33:29,606
+On her cheek bone under her eye.
+
+634
+00:33:30,891 --> 00:33:31,971
+I thought that was ketchup.
+
+635
+00:33:33,327 --> 00:33:36,019
+What if she had gotten a scar...
+Something permanent?
+
+636
+00:33:36,643 --> 00:33:37,803
+I Don't wanna play "what if."
+
+637
+00:33:37,963 --> 00:33:38,973
+I'm just saying,
+
+638
+00:33:39,090 --> 00:33:41,098
+if it had happened to Bobby
+it would've been okay
+
+639
+00:33:41,280 --> 00:33:42,736
+because a boy with a scar is nothing
+
+640
+00:33:42,829 --> 00:33:44,426
+but a girl... so much worse.
+
+641
+00:33:44,649 --> 00:33:45,702
+Nothing happened!
+
+642
+00:33:46,264 --> 00:33:47,264
+I keep
+
+643
+00:33:47,962 --> 00:33:48,983
+thinking...
+
+644
+00:33:51,454 --> 00:33:54,249
+Not that I could've
+killed the kids but...
+
+645
+00:33:56,766 --> 00:33:57,766
+Worse.
+
+646
+00:33:59,642 --> 00:34:01,597
+Sally could've survived
+
+647
+00:34:03,571 --> 00:34:05,074
+and gone on living with this
+
+648
+00:34:05,802 --> 00:34:08,327
+horrible scar on her face and...
+
+649
+00:34:10,578 --> 00:34:14,311
+Some long, lonely,
+
+650
+00:34:16,178 --> 00:34:17,681
+miserable life.
+
+651
+00:34:21,265 --> 00:34:22,265
+Don...
+
+652
+00:34:33,264 --> 00:34:35,020
+What's happening to me?
+
+653
+00:34:38,829 --> 00:34:41,079
+Do I need to see someone?
+
+654
+00:34:48,578 --> 00:34:49,578
+I Don't know.
+
+655
+00:34:51,880 --> 00:34:52,956
+I guess so.
+
+656
+00:34:55,266 --> 00:34:56,266
+Whatever you want.
+
+657
+00:35:08,330 --> 00:35:09,450
+11:00 am, did you get fired?
+
+658
+00:35:12,831 --> 00:35:15,379
+Brought Betty into the city
+to see the doctor but, uh,
+
+659
+00:35:16,444 --> 00:35:20,307
+honestly I think I'm the one
+not feeling so great.
+
+660
+00:35:22,519 --> 00:35:23,519
+I called in sick.
+
+661
+00:35:24,545 --> 00:35:25,642
+Don't bring that here.
+
+662
+00:35:27,301 --> 00:35:29,858
+I'm serious, Don.
+Don't talk to me about her.
+
+663
+00:35:31,893 --> 00:35:33,544
+That makes me feel cruel.
+
+664
+00:35:41,487 --> 00:35:42,645
+You're right.
+
+665
+00:35:44,307 --> 00:35:45,394
+Sometimes.
+
+666
+00:35:48,333 --> 00:35:49,933
+I can't decide if you have everything...
+
+667
+00:35:53,645 --> 00:35:54,645
+Or nothing.
+
+668
+00:35:55,767 --> 00:35:56,767
+I live in the moment.
+
+669
+00:36:03,267 --> 00:36:04,267
+Nothing is everything.
+
+670
+00:36:06,877 --> 00:36:09,143
+It sounds more like you
+live in the village.
+
+671
+00:36:09,861 --> 00:36:11,541
+Actually I live in the hall.
+
+672
+00:36:12,298 --> 00:36:13,444
+I lost my key.
+
+673
+00:36:13,872 --> 00:36:14,942
+I had to, um...
+
+674
+00:36:16,003 --> 00:36:17,003
+Spend the night abroad.
+
+675
+00:36:17,455 --> 00:36:18,841
+Could you be a gentlemen
+
+676
+00:36:19,022 --> 00:36:20,396
+and break into the fire escape
+
+677
+00:36:20,681 --> 00:36:21,815
+so I Don't have to.
+
+678
+00:36:32,146 --> 00:36:33,256
+Is Draper in yet?
+
+679
+00:36:33,378 --> 00:36:35,371
+He's not coming in today.
+He's not feeling well.
+
+680
+00:36:35,605 --> 00:36:38,113
+I'm leaving.
+Don't tell anyone I was here.
+
+681
+00:36:50,129 --> 00:36:51,129
+No it's, peggy!
+
+682
+00:36:53,503 --> 00:36:54,503
+Hello?
+
+683
+00:36:56,816 --> 00:36:58,577
+I Don't think I can go out
+to lunch today.
+
+684
+00:36:58,753 --> 00:37:00,091
+Mr. Draper's not coming in.
+
+685
+00:37:00,321 --> 00:37:01,977
+That means you can go out to lunch.
+
+686
+00:37:02,627 --> 00:37:04,377
+Have you never worked
+in an office before?
+
+687
+00:37:04,925 --> 00:37:06,170
+He could call.
+
+688
+00:37:06,780 --> 00:37:08,450
+It's my second week-another time?
+
+689
+00:37:09,735 --> 00:37:11,280
+I did enjoy the tour the other day.
+
+690
+00:37:11,598 --> 00:37:12,756
+It was eye opening.
+
+691
+00:37:12,944 --> 00:37:15,222
+I didn't think your eyes
+could be any wider.
+
+692
+00:37:16,943 --> 00:37:17,943
+That's clever.
+
+693
+00:37:22,004 --> 00:37:24,708
+I guess I'll go to the cart.
+You want something?
+
+694
+00:37:27,634 --> 00:37:28,659
+What?
+
+695
+00:37:29,700 --> 00:37:31,461
+The office is gonna empty
+out any second,
+
+696
+00:37:31,614 --> 00:37:33,469
+we could push the couch
+in front of the door.
+
+697
+00:37:33,568 --> 00:37:34,568
+Paul!
+
+698
+00:37:36,379 --> 00:37:37,579
+Do you belong to someone else?
+
+699
+00:37:39,444 --> 00:37:40,444
+Shit!
+
+700
+00:37:42,319 --> 00:37:43,879
+I Don't even like to sit in dons chair.
+
+701
+00:37:44,443 --> 00:37:46,003
+I think we've misunderstood each other.
+
+702
+00:37:49,569 --> 00:37:50,729
+There is someone else, right?
+
+703
+00:37:52,945 --> 00:37:53,945
+Yes.
+
+704
+00:38:15,457 --> 00:38:17,385
+I hope you know that
+covering your typewriter's
+
+705
+00:38:17,562 --> 00:38:19,464
+office code for I'm done for the day.
+
+706
+00:38:19,870 --> 00:38:21,005
+I'm not feeling so swell.
+
+707
+00:38:21,291 --> 00:38:23,911
+Neither am I. Look at these letters
+you typed after lunch.
+
+708
+00:38:24,907 --> 00:38:26,446
+Taraho indiana has two "r's"
+
+709
+00:38:27,232 --> 00:38:29,733
+and an "a" and an "e" at the end?
+
+710
+00:38:30,179 --> 00:38:31,764
+I gather you missed homerow by a hand
+
+711
+00:38:31,976 --> 00:38:34,426
+or you were out drinking with
+the junior account boys again.
+
+712
+00:38:34,551 --> 00:38:35,565
+I wasn't drinking.
+
+713
+00:38:35,676 --> 00:38:36,676
+I Don't like your tone.
+
+714
+00:38:38,937 --> 00:38:40,017
+I'll redo these right away.
+
+715
+00:38:40,928 --> 00:38:41,968
+Look at you all in a snip.
+
+716
+00:38:45,238 --> 00:38:46,238
+Are you gonna watch me?
+
+717
+00:38:46,553 --> 00:38:47,553
+What is wrong with you?
+
+718
+00:38:48,738 --> 00:38:49,738
+Honestly?
+
+719
+00:38:50,820 --> 00:38:51,820
+Why is it that every time
+
+720
+00:38:52,453 --> 00:38:54,897
+a man takes you out to lunch
+around here you're...
+
+721
+00:38:55,182 --> 00:38:56,259
+You're the desert!
+
+722
+00:38:56,412 --> 00:38:57,433
+That's terrible.
+
+723
+00:38:57,586 --> 00:38:59,077
+It's constant from every corner.
+
+724
+00:38:59,576 --> 00:39:00,576
+I'm from bay ridge.
+
+725
+00:39:01,140 --> 00:39:02,140
+We have manners.
+
+726
+00:39:02,484 --> 00:39:03,916
+Why can't they just leave it alone?
+
+727
+00:39:04,034 --> 00:39:06,065
+Because men always
+bother you all the time-
+
+728
+00:39:06,202 --> 00:39:07,734
+they follow you down the street.
+
+729
+00:39:09,156 --> 00:39:10,454
+Well, not exactly.
+
+730
+00:39:10,953 --> 00:39:12,433
+Look dear, I Don't know you that well
+
+731
+00:39:13,269 --> 00:39:15,127
+but you're the new girl
+and you're not much
+
+732
+00:39:15,328 --> 00:39:17,602
+so you might as well
+enjoy it while it lasts.
+
+733
+00:39:18,142 --> 00:39:19,142
+Of course.
+
+734
+00:39:19,636 --> 00:39:20,705
+Don't be that way,
+
+735
+00:39:20,891 --> 00:39:23,067
+I'm just offering some
+perspective that's all.
+
+736
+00:39:25,448 --> 00:39:26,469
+Thank you, joan.
+
+737
+00:39:26,785 --> 00:39:27,954
+I'll save my thank you's
+
+738
+00:39:28,097 --> 00:39:30,199
+till you correct that correspondence.
+
+739
+00:40:51,752 --> 00:40:53,470
+I Don't know why I'm here.
+
+740
+00:40:55,859 --> 00:40:58,258
+I'm... I mean I do. I'm...
+
+741
+00:41:00,440 --> 00:41:02,020
+Nervous I guess-
+
+742
+00:41:03,899 --> 00:41:05,038
+anxious.
+
+743
+00:41:07,566 --> 00:41:09,311
+I Don't sleep that well.
+
+744
+00:41:11,504 --> 00:41:12,732
+And my hands...
+
+745
+00:41:15,502 --> 00:41:16,824
+Well they're fine now.
+
+746
+00:41:20,192 --> 00:41:22,518
+It's like when you have
+a problem with your car
+
+747
+00:41:22,817 --> 00:41:25,960
+and you go to the mechanic
+and it's not doing it anymore.
+
+748
+00:41:28,380 --> 00:41:29,962
+Not that you are a mechanic.
+
+749
+00:41:37,378 --> 00:41:40,613
+I guess a lot of people must come here
+worried about the bum.
+
+750
+00:41:41,005 --> 00:41:42,005
+Is that true?
+
+751
+00:41:46,568 --> 00:41:47,968
+It's a common nightmare people say.
+
+752
+00:41:48,815 --> 00:41:49,815
+I read it in a magazine.
+
+753
+00:41:58,754 --> 00:41:59,759
+My mother always told me
+
+754
+00:42:00,003 --> 00:42:02,852
+that it wasn't polite
+to talk about yourself.
+
+755
+00:42:07,316 --> 00:42:08,316
+She passed away recently.
+
+756
+00:42:13,504 --> 00:42:14,624
+I guess I already said that.
+
+757
+00:42:20,942 --> 00:42:21,942
+Can I smoke in here?
+
+758
+00:42:49,445 --> 00:42:50,645
+We're all so lucky to be here.
+
+759
+00:42:54,256 --> 00:42:55,256
+It's 7:30.
+
+760
+00:42:56,566 --> 00:42:57,726
+I have to go to roys reading.
+
+761
+00:42:58,507 --> 00:43:02,108
+I have to be there to acted surprised
+when Jack Kerouac doesn't show.
+
+762
+00:43:05,442 --> 00:43:06,602
+Lock the door when you leave.
+
+763
+00:43:14,256 --> 00:43:15,256
+If you're gonna go home,
+
+764
+00:43:15,756 --> 00:43:16,756
+take a shower you stink.
+
+765
+00:43:18,693 --> 00:43:19,693
+It's cause I'm the man.
+
+766
+00:43:20,692 --> 00:43:22,052
+You seem to forget that sometimes.
+
+767
+00:43:22,696 --> 00:43:24,096
+I'm lucky they aren't all like you.
+
+768
+00:43:24,257 --> 00:43:25,377
+I take that as a compliment.
+
+769
+00:43:30,130 --> 00:43:31,130
+What do women want?
+
+770
+00:43:32,693 --> 00:43:33,973
+Well one of the things has to be
+
+771
+00:43:34,631 --> 00:43:36,071
+not being asked something like that.
+
+772
+00:43:37,382 --> 00:43:38,382
+What do women want?
+
+773
+00:43:39,130 --> 00:43:40,250
+You know better then to ask.
+
+774
+00:43:45,944 --> 00:43:46,944
+Give me a pen.
+
+775
+00:43:47,570 --> 00:43:48,570
+Jesus.
+
+776
+00:43:56,134 --> 00:43:57,134
+What do women want?
+
+777
+00:44:00,381 --> 00:44:01,381
+Any excuse to get closer.
+
+778
+00:44:03,944 --> 00:44:04,944
+Thank God.
+
+779
+00:44:06,634 --> 00:44:08,034
+There's that ego people pay to see.
+
+780
+00:44:18,624 --> 00:44:20,021
+I'll have the filet of sole.
+
+781
+00:44:20,256 --> 00:44:21,259
+Excellent.
+
+782
+00:44:22,009 --> 00:44:23,452
+Cream spinach or cream corn?
+
+783
+00:44:23,673 --> 00:44:24,693
+Spinach.
+
+784
+00:44:24,831 --> 00:44:26,287
+Fried potatoes or au gratin?
+
+785
+00:44:26,445 --> 00:44:28,443
+Au gratin... With tomato juice to start.
+
+786
+00:44:29,103 --> 00:44:30,183
+I'll have the goulash.
+
+787
+00:44:30,324 --> 00:44:31,428
+Very good, sir.
+
+788
+00:44:35,068 --> 00:44:36,068
+Vodka gimlet.
+
+789
+00:44:37,444 --> 00:44:38,444
+Old fashioned.
+
+790
+00:44:48,319 --> 00:44:49,319
+How was your day?
+
+791
+00:44:51,445 --> 00:44:52,445
+Fine.
+
+792
+00:44:53,196 --> 00:44:54,356
+You know I work with doctors,
+
+793
+00:44:54,821 --> 00:44:56,358
+they'll say anything you pay them to.
+
+794
+00:44:56,511 --> 00:44:57,591
+Of course dear
+
+795
+00:44:58,812 --> 00:45:00,162
+but dinner in the city...
+
+796
+00:45:01,025 --> 00:45:02,159
+I'm glad I'm hungry.
+
+797
+00:45:04,041 --> 00:45:06,153
+I saw an interesting thing
+in the journal american.
+
+798
+00:45:06,733 --> 00:45:08,882
+Apparently the phone company
+wants to start
+
+799
+00:45:09,414 --> 00:45:10,894
+charging people for unlisted numbers.
+
+800
+00:45:11,989 --> 00:45:13,262
+Well, that doesn't seem fair.
+
+801
+00:45:13,569 --> 00:45:14,626
+Some people agree with you
+
+802
+00:45:14,720 --> 00:45:16,258
+and they're giving aliases to ma bell,
+
+803
+00:45:16,467 --> 00:45:18,369
+they call it anom-de phone.
+
+804
+00:45:19,091 --> 00:45:20,091
+Isn't that smart?
+
+805
+00:45:20,715 --> 00:45:23,194
+Of course most of them are pornographic.
+
+806
+00:45:24,903 --> 00:45:25,903
+The best one...
+
+807
+00:45:26,653 --> 00:45:27,653
+Pat magroin.
+
+808
+00:45:27,903 --> 00:45:28,903
+Oh my God!
+
+809
+00:45:29,747 --> 00:45:32,072
+I'd believe they would print
+that in the journal american
+
+810
+00:45:32,248 --> 00:45:33,974
+let alone in the phone book.
+
+811
+00:45:45,529 --> 00:45:46,529
+This is nice.
+
+812
+00:46:03,842 --> 00:46:04,842
+I'll be right up.
+
+813
+00:46:26,154 --> 00:46:27,154
+Hello?
+
+814
+00:46:28,093 --> 00:46:29,213
+Sorry to bother you so late,
+
+815
+00:46:29,470 --> 00:46:30,470
+it's Don Draper.
+
+816
+00:46:30,717 --> 00:46:31,717
+Oh hello, mr. Draper.
+
+817
+00:46:32,093 --> 00:46:33,333
+No, no it's not to late at all.
+
+818
+00:46:34,407 --> 00:46:35,407
+Glad to hear that.
+
+819
+00:46:36,904 --> 00:46:37,904
+Well?
+
+820
+00:46:38,342 --> 00:46:39,742
+Well, I had a very interesting hour
+
+821
+00:46:41,283 --> 00:46:42,483
+with your wife this afternoon.
+
+822
+00:46:44,029 --> 00:46:45,349
+She's a very anxious young woman.
+
+823
+00:46:46,780 --> 00:46:48,260
+I think you're doing the right thing.
+
+824
+00:47:35,594 --> 00:47:36,916
+<I>On the next "Mad Men"...</I>
+
+825
+00:47:37,158 --> 00:47:40,688
+Peggy, when I came over
+that night, you know?
+
+826
+00:47:41,346 --> 00:47:42,346
+I was there.
+
+827
+00:47:43,471 --> 00:47:45,599
+Miss Mankel, no one at this table
+
+828
+00:47:45,844 --> 00:47:47,249
+has ever been to your store.
+
+829
+00:47:47,658 --> 00:47:50,153
+A wrong I will personally
+correct this afternoon.
+
+830
+00:47:50,457 --> 00:47:52,441
+Draper, who knows anything
+about that guy?
+
+831
+00:47:52,665 --> 00:47:53,933
+No one's ever lifted that rock.
+
+832
+00:47:55,780 --> 00:47:57,036
+Interesting crowd in there.
+
+833
+00:47:57,932 --> 00:47:59,030
+Betty?
+
+834
+00:47:59,194 --> 00:48:00,204
+What?
+
