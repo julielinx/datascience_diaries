@@ -1,0 +1,6 @@
+*.parquet
+*.gz
+*.csv
+*.tsv
+*/from_instructor
+*.xlsx
