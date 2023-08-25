@@ -2,5 +2,5 @@
 *.gz
 *.csv
 *.tsv
-*/from_instructor
+from_instructor/
 *.xlsx
