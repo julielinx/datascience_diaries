@@ -4,3 +4,5 @@
 *.tsv
 from_instructor/
 *.xlsx
+/.idea
+/.ipynp_checkpoints
