@@ -1,0 +1,541 @@
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <title>Homework 2:  DNA analysis</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+<h1>Homework 2:  DNA analysis</h1>
+
+<p>
+<b>Due</b>:  at 11pm on Thursday, January 17.
+<br />
+Submit via this 
+<a href="https://gradeit.cs.washington.edu/uwcse14x/public/140/13wi/homework/turnin/a2.html">turnin page.</a>
+</p>
+
+<p>
+You will use, modify, and extend a program to compute the GC content of DNA
+data.
+The GC content of DNA is the percentage of nucleotides that are
+either G or C.
+</p>
+
+<p>
+DNA can be thought of as a sequence of nucleotides.  Each nucleotide is
+adenine, cytosine, guanine, or thymine.  These are abbreviated as A, C, G,
+and T.  A nucleotide is also called a nucleotide base, nitrogenous
+base, nucleobase, or just a base.
+</p>
+
+<p>
+Biologists have multiple reasons to be interested in GC content.
+</p>
+<ul>
+  <li>GC content can identify genes within the DNA, and can identify types of
+   genes.
+   Genes tend to have higher GC content than other parts of the DNA.
+   Genes with longer coding regions have even higher GC content.
+  </li>
+  <li>Regions of DNA with higher GC content
+   require higher temperatures for certain chemical reactions, such as when
+   copying/duplicating the DNA.
+  </li>
+  <li>GC content can be used in determining
+   classification of species.
+  </li>
+</ul>
+<p>
+If you are curious, Wikipedia has more information about
+<a href="http://en.wikipedia.org/wiki/GC-content">GC content</a>.
+That reading is optional and is not required to complete this assignment.
+</p>
+
+
+<p>
+Your program will read files produced by a high-throughput sequencer &mdash; a
+machine that takes as input some DNA, and produces as output a file
+containing a sequence of
+nucleotides.
+</p>
+
+<p>
+Here are the first 8 lines of output from a particular sequencer:
+</p>
+
+<pre>
+@SOLEXA-1GA-2_2_FC30DNN:1:2:574:1722
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
++SOLEXA-1GA-2_2_FC30DNN:1:2:574:1722
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+@SOLEXA-1GA-2_2_FC30DNN:1:2:478:1745
+GTGGGGGTGATGTCCACGATTACGCCGACCGGCTGG
++SOLEXA-1GA-2_2_FC30DNN:1:2:478:1745
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+</pre>
+
+<p>
+The nucleotide data is in the second line, the sixth line, the tenth line,
+etc.  Your program will not use the rest of the file, which provides
+information about the sequencer and the sequencing process that created the
+nucleotide data.
+</p>
+
+
+<h2 id="problem1">Problem 1: Obtain the files, add your name</h2>
+
+<p>
+Obtain the files you need by downloading the
+<a href="homework2.zip">homework2.zip</a> file.
+(This is a large download &mdash; be
+patient.)
+</p>
+
+<p>
+Unzip the <tt>homework2.zip</tt> file to create a
+<tt>homework2</tt> directory/folder.  You will do your work here.
+The <tt>homework2</tt> directory/folder contains:
+</p>
+<ul>
+  <li><tt>dna_analysis.py</tt>, a partial Python program that you will
+    complete</li>
+  <li><tt>answers.txt</tt>, a file where you will answer textual questions</li>
+  <li><tt>data</tt>, a directory. Which contains the data that you will process:
+    <ul><li><tt>*.fastq</tt> files, which are output from DNA sequencers; this is
+    the data that the program analyzes</li>
+    </ul>
+    </li>
+    <li><tt>expected_output</tt>, a directory containing example runs of the
+    final result of your <tt>dna_analysis.py</tt> program.</li>
+</ul>
+
+<p>
+You will do your work by modifying two
+files &mdash; <tt>dna_analysis.py</tt> and <tt>answers.txt</tt> &mdash; and
+then submitting the modified versions.  Add your name to the top of each of
+these files.
+</p>
+
+<p>
+Each problem will ask you to make some changes to the program
+<tt>dna_analysis.py</tt> (or to write text in the <tt>answers.txt</tt>
+file, or both). When you do so, you will generally add to the program. Do
+not remove changes from earlier problems when you work on later problems;
+your final program should solve all the problems.
+</p>
+
+<p>
+In either file, keep the amount of characters within a particular line below
+80. One technique to do this in python would be to break large equations into
+smaller ones by storing subexpressions in variables.
+</p>
+
+<p>
+By the end of the assignment, we would like <tt>dna_analysis.py</tt> to produce
+output of the exact form:
+</p>
+
+<pre>
+GC-content: ___
+AT-content: ___
+G count: ___
+C count: ___
+A count: ___
+T count: ___
+Sum count: ___
+Total count: ___
+seq length: ___
+AT/GC Ratio: ___
+GC Classification: ___
+</pre>
+
+<p>
+Where ___ is replaced by values that you will calculate. Of course, the exact
+values in each category will vary depending on the input data that you are
+using. We expect the formatting of your program output to exactly match this.
+</p>
+
+<p>
+You will submit <tt>answers.txt</tt> as a <b>text file</b>.  Plain text is
+the standard for communicating information among programmers, because it
+can be read on any computer without installing proprietary software.  You
+can edit text files using IDLE or another text editor.  If you use a word
+processor, then be sure to save the files as text.  Windows users should
+never use Notepad for any purpose, because Notepad will mangle the line
+endings in the file; WordPad or Notepad++ are better alternatives.
+</p>
+
+
+<h2 id="problem2">Problem 2: Run the program</h2>
+
+<p>
+It is a good idea to check the correctness of your program by comparing it
+to a computation done in some other way, such as by hand or by a different
+program.  We have provided the <tt>test-small.fastq</tt> file for this
+purpose.  First, examine the file by hand to determine the GC content.
+Then, run your program to verify that it provides the correct answer for
+this file.</p>
+
+<p>Run your program by opening a
+  <a href="../../shell-usage.html">shell
+    or command prompt</a> (not IDLE's Python interpreter),
+navigating to your <tt>homework2</tt> directory, then typing the
+following command.
+</p>
+
+<p>
+On Mac/Linux:
+</p>
+<pre>
+  python dna_analysis.py data/test-small.fastq
+</pre>
+
+<p>
+On Windows:
+</p>
+<pre>
+  python dna_analysis.py data\test-small.fastq
+</pre>
+
+<p>
+If you get a "can't open file 'dna_analysis.py'" error or a "No such file or
+directory" error, then perhaps your working directory is not
+<tt>homework2</tt>, or you mistyped the file name.
+</p>
+
+<p>
+After you have confirmed that your program runs correctly on
+<tt>test-small.fastq</tt>, 
+run your program on each of the 6 real <tt>sample_<em>N</em>.fastq</tt> files provided, by
+executing 6 commands such as
+</p>
+<pre>
+  python dna_analysis.py data/sample_1.fastq
+</pre>
+
+<p>
+or if you are a Windows user,
+</p>
+
+<pre>
+  python dna_analysis.py data\sample_1.fastq
+</pre>
+<p>
+You will have to change <tt>sample_1.fastq</tt> to a different file name in
+the subsequent commands.  Be patient &mdash; you are processing a lot of
+data, and it might take a minute or so to run.
+<!-- On Mike's laptop (top-of-the-line as of Feb 2008): 56 seconds -->
+</p>
+
+<p>
+(If you are interested, <tt>sample_3.fastq</tt> and <tt>sample_4.fastq</tt> are from
+<a href="https://en.wikipedia.org/wiki/Streptococcus_pneumoniae">Streptococcus
+  pneumoniae TIGR4</a>, and <tt>sample_5.fastq</tt> is from
+<a href="https://en.wikipedia.org/wiki/Cytomegalovirus">Human herpesvirus 5</a>.)
+</p>
+
+<p>
+  If you have already used the Output Comparison Tool (referenced at the bottom
+  of the page), you might notice that some of your results are different than
+  the example results. Don't worry about this &mdash; this issue will be
+  resolved in <a href="#problem6">Problem
+    6</a>.
+</p>
+
+<p>
+&nbsp;
+</p>
+
+<p>
+Cut and paste the line of output regarding GC-content from
+<tt>sample_1.fastq</tt> into your <tt>answers.txt</tt> file. For example, your
+answer might look like
+
+</p>
+<pre>
+GC-content: 0.42900139393
+</pre>
+
+<p>
+(Note that this is not the answer you should expect to get, this is just an
+example of the format that your answer should be in.)
+</p>
+
+
+<h2 id="problem3">Problem 3: Remove some lines</h2>
+
+<p>
+In your program, comment out these lines
+</p>
+<pre>
+  seq = ""
+  linenum = 0
+</pre>
+<p>
+by prefixing them by the <tt>#</tt> character.  Re-run the program, just as
+you did for <a href="#problem2">Problem 2</a>.
+In <tt>answers.txt</tt>,
+explain what happened, and why it happened.  Now, restore the lines to
+their original state by removing the <tt>#</tt> that you added.
+</p>
+
+<p>
+What would happen if you commented out this line?
+</p>
+<pre>
+  gc_count = 0
+</pre>
+<p>
+Explain (in <tt>answers.txt</tt>).
+</p>
+
+
+<h2 id="problem4">Problem 4: Compute AT content</h2>
+
+<p>
+Augment your program so that, in addition to computing and printing the GC
+ratio, it also computes and prints the AT content. The AT content is the
+percentage of nucleotides that are A or T.
+</p>
+
+<p>
+Two ways to compute the AT content are:
+</p>
+<ul>
+  <li>Copy the existing loop that examines each base pair.  You will now have
+   two loops, one of which computes the GC count and one of which computes
+   the AT count.
+  </li>
+  <li>Add more statements into the existing loop, so that one loop computes
+   both the GC count and the AC count.
+  </li>
+</ul>
+<p>
+You may use whichever approach you prefer.
+</p>
+
+<p>
+Check your work by manually computing the AT content for file
+<tt>test-small.fastq</tt>, then comparing it to the output of running your program
+on <tt>test-small.fastq</tt>.
+</p>
+
+<p>
+Run your program on <tt>sample_1.fastq</tt>. Cut-and-paste the relevant line of
+output into <tt>answers.txt</tt>.
+</p>
+
+
+<h2 id="problem5">Problem 5: Count nucleotides</h2>
+
+<p>
+Augment your program so that it also computes and prints the number of 
+A nucleotides, the number of T nucleotides, the number of G nucleotides,
+and the number of C nucleotides.
+</p>
+
+<p>
+When doing this, add at most one extra loop to your program.  You can solve
+this part without adding any new loops at all, by reusing an existing loop.
+</p>
+
+<p>
+Check your work by manually computing the results for file
+<tt>test-small.fastq</tt>, then comparing them to the output of running your
+program on <tt>test-small.fastq</tt>.
+</p>
+
+<p>
+Run your program on <tt>sample_1.fastq</tt>. Cut-and-paste the relevant lines
+of output into <tt>answers.txt</tt> (the lines that indicate the G count, C
+count, A count, and T count).
+</p>
+
+
+
+<h2 id="problem6">Problem 6: Sanity-check the data</h2>
+
+<p>
+For each of the 11 <tt>.fastq</tt> files, compare the following three quantities:
+</p>
+<ul>
+  <li>the sum of the A count, the C count, the G count, and the T count
+  </li>
+  <li>the <tt>total_count</tt> variable
+  </li>
+  <li>the length of the <tt>seq</tt> variable.  You can compute this with <tt>len(seq)</tt>.
+  </li>
+</ul>
+
+<p>
+In other words, compute the three numbers for <tt>test-small.fastq</tt>
+and determine whether they are equal or different.  Then do the same for 
+<tt>test-high-gc-1.fastq</tt>, etc.
+</p>
+
+<p>
+For at least one file, at least two of these metrics will differ.  In your
+<tt>answers.txt</tt> file, state which file(s) and which metrics.
+(If all the metrics are equal for each file, then your code contains a mistake.)
+In your <tt>answers.txt</tt> file, write a short paragraph that explains why.
+</p>
+
+<p>
+Explaining why (or debugging your code if all the metrics were the same)
+might require you to do some detective work.  For instance, to understand
+the issue, you may need to load a file into a text editor and examine it.
+We strongly suggest that you start with the smallest file for which the
+numbers are not all the same.  Perusal of the file may help you.  Failing
+that, you can manually compute each of the counts, and then compare your
+manual results to what your program computes to determine where the error
+lies.  A final approach would be to modify your program, or create a new
+program, to compute the three metrics for each line of a file separately:
+if the metrics differ for an entire file, then they must differ for some
+specific line, and then examining that line will help you understand the
+problem.
+</p>
+
+<p>
+If all of the three quantities that you measured in
+<a href="#problem6">problem 6</a> are the same, then it would not matter
+which one you used in the denominator when computing the GC content. In
+fact, you saw that the numbers are not the same.  In file
+<tt>answers.txt</tt>, state which of these quantities can be used in the
+denominator and which cannot, and why.
+</p>
+
+<p>
+<em>If</em> your program incorrectly computed the GC content (which should be
+equal to (G+C)/(A+C+G+T)), then state that fact in your <tt>answers.txt</tt>
+file.  Then, go back and correct it, and also update any incorrect answers
+elsewhere in your <tt>answers.txt</tt> file.
+</p>
+
+
+<h2 id="problem7">Problem 7: Compute the AT/GC ratio</h2>
+
+<p>
+Sometimes biologists use the AT/GC ratio, defined as (A+T)/(G+C), rather
+than the GC-content, which is defined as (G+C)/(A+C+G+T).
+</p>
+
+<p>
+Modify your program so that it also computes the AT/GC ratio.
+</p>
+
+<p>
+Check your work by manually computing the results for file
+<tt>test-small.fastq</tt>. Compare them to the output of running your
+program on <tt>test-small.fastq</tt>.
+</p>
+
+<p>
+Run your program on <tt>sample_1.fastq</tt>. Cut-and-paste the relevant lines
+of output into <tt>answers.txt</tt> (the line that indicates the AT/GC ratio).
+</p>
+
+
+<h2 id="problem8">Problem 8: Categorize organisms</h2>
+
+<p>
+The GC content can be used to categorize microorganisms.<br/>
+Modify your program to print out a classification of the organism in the file.<br/>
+If the GC content is above 60%, the organism is considered &ldquo;high GC content&rdquo;.<br/>
+If the GC content is below 40%, the organism is considered &ldquo;low GC content&rdquo;.<br/>
+Otherwise, the organism is considered &ldquo;moderate GC content&rdquo;.
+</p>
+
+<p>
+Biologists can use GC content for classifying species, for determining the
+melting temperature of the DNA (useful for both ecology and
+experimentation, for example
+<a href="https://en.wikipedia.org/wiki/Polymerase_chain_reaction">PCR</a> is
+more difficult on organisms with high
+GC content), and for other purposes.  Here are some examples:<br/>
+The GC content of Streptomyces coelicolor A3(2) is 72%.<br/>
+The GC content of Yeast (Saccharomyces cerevisiae) is 38%.<br/>
+The GC content of Thale Cress (Arabidopsis thaliana) is 36%.<br/>
+The GC content of Plasmodium falciparum is 20%.
+</p>
+
+<p>
+Again, test your work.  The <tt>test-small.fastq</tt> file has low GC
+content.  We have provided four other test files, whose names explain
+their GC content: <tt>test-moderate-gc-1.fastq</tt>,
+<tt>test-moderate-gc-2.fastq</tt>, <tt>test-high-gc-1.fastq</tt>,
+<tt>test-high-gc-2.fastq</tt>.
+</p>
+
+<p>
+After your program works for all the test files, run it on
+<tt>sample_1.fastq</tt>. Cut-and-paste just the relevant line of output from
+your program into <tt>answers.txt</tt>.
+</p>
+
+
+<h2 id="submit">Submit your work</h2>
+
+<p>
+You are almost done!
+</p>
+
+<p>
+At the bottom of your <tt>answers.txt</tt> file, in the &ldquo;Collaboration&rdquo;
+part, state which students or
+other people (besides the course staff) helped you with the assignment, or
+that no one did.
+</p>
+
+<p>
+At the bottom of your <tt>answers.txt</tt> file, in the &ldquo;Reflection&rdquo; part,
+reflect on this assignment.
+  What did you learn from this assignment?  What do you wish you had known
+  before you started?  What would you do differently?  What advice would
+  you offer to future students?
+</p>
+
+<p>
+Submit the following files via this
+<a href="https://gradeit.cs.washington.edu/uwcse14x/public/140/13wi/homework/turnin/a2.html">turnin page.</a>
+</p>
+<ul>
+  <li><tt>dna_analysis.py</tt></li>
+  <li><tt>answers.txt</tt></li>
+</ul>
+
+<p>
+Please validate your <tt>dna_analysis.py</tt> program's output using the
+<a href="https://www.diffchecker.com/diff">Diff Checker</a> before submitting
+your assignment. You can compare your output to the files given in the
+<tt>expected_output</tt> directory of the homework2 files.
+</p>
+
+<p>
+Answer a
+<a href="https://catalyst.uw.edu/webq/survey/mernst/188813">survey</a>
+about how much time you spent on this assignment.
+</p>
+
+
+</body>
+</html>
+
+
+<!--  LocalWords:  GC nucleotides nucleotide nucleobase homework2 dna py txt gc
+ -->
+<!--  LocalWords:  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC fastq linenum len A3
+ -->
+<!--  LocalWords:  hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh Streptomyces coelicolor
+ -->
+<!--  LocalWords:  GTGGGGGTGATGTCCACGATTACGCCGACCGGCTGG Saccharomyces Thale
+ -->
+<!--  LocalWords:  cerevisiae Arabidopsis thaliana Plasmodium falciparum
+ -->
+<!--  LocalWords:  11pm CollectIt Dropbox metadata 11pm orking irectory cd
+ -->
+<!--  LocalWords:  hange pneumoniae TIGR4 herpesvirus pwd rint PCR turnin
+ -->
+<!--  LocalWords:  IDLE's 'dna py'
+ -->

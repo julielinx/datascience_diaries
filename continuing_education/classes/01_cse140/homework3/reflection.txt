@@ -1,0 +1,14 @@
+Name: ...
+UW NetID: ...
+CSE 140
+Homework 3: Election prediction
+
+
+Collaboration:
+
+...
+
+Reflection:
+
+...
+
